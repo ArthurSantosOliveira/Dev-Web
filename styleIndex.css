@@ -41,12 +41,14 @@ body{
     margin-top: 2%;
 }
 
-.container{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: 400px;
-    border: 3px solid black;
+.cards{
+    display: flex; 
+    word-break: break-all;
 }
+
 .container p{
     font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
 }
