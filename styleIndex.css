@@ -29,23 +29,19 @@ body{
     padding-left: 14%;
     background-color: #FCE22A;
 }
-
 .nav-bar a{
     text-decoration: none;
     font-size: 20px;
 }
-
 .container-h2 h2{
     font-size: 30px;
     text-align: center;
     margin-top: 2%;
 }
-
 .cards{
     display: flex; 
     word-break: break-all;
 }
-
 .container p{
     font-size: 20px;
     border: 2px solid black;
