@@ -38,16 +38,27 @@ body{
     font-size: 30px;
     text-align: center;
     margin-block-start: 2%;
+    border-radius: 30px;
 }
 .cards{
     display: flex; 
-    word-break: break-all;
+    word-break:keep-all;    
+    align-items: baseline;
 }
 .cards p{
+    display: grid;
     font-size: 20px;
     border: 2px solid black;
-    border-radius: 50px;
-    block-size: 300px;
+    border-radius: 30px;
+    block-size: 350px;
     margin: 10px;
     background-color: #f5f247f6;
+    text-align:center;
+    align-items: center;
+}
+
+.cards h3{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 20px;
 }
