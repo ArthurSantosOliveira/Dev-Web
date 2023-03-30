@@ -68,8 +68,9 @@ body{
     text-align:center;
     align-items: center;
 }
-
-
+.cards p:hover{
+    transform: scale(1.1);
+}
 
 .rodape{
     background-color: #f94a29;
