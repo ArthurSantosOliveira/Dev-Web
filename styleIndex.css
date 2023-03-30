@@ -29,32 +29,26 @@ body{
     padding-left: 14%;
     background-color: #f5f247f6;
 }
+
 .nav-bar a{
     text-decoration: none;
     height: 20px;
     font-size: 20px;
 }
+
 .container-h2 h2{
     font-size: 30px;
     text-align: center;
     margin-block-start: 2%;
     border-radius: 30px;
 }
+
 .cards{
-    display: flex; 
+    display: grid; 
+    grid-template-columns: auto auto auto;
     word-break:keep-all;    
     align-items: baseline;
-}
-.cards p{
-    display: grid;
-    font-size: 20px;
-    border: 2px solid black;
-    border-radius: 30px;
-    block-size: 350px;
-    margin: 10px;
-    background-color: #f5f247f6;
-    text-align:center;
-    align-items: center;
+    
 }
 
 .cards h3{
@@ -62,6 +56,20 @@ body{
     text-align: center;
     font-size: 20px;
 }
+
+.cards p{
+    display: grid;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 30px;
+    block-size: 300px;
+    margin: 10px;
+    background-color: #f5f247f6;
+    text-align:center;
+    align-items: center;
+}
+
+
 
 .rodape{
     background-color: #f94a29;
