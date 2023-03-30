@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,900&display=swap');
 body{
     /* background-color: #FCE22A; */
-    background-color: #30E3DF;
+    background-color: #63e9e7;
 }
 .cabecalho{
     margin-top: 2%;
@@ -23,20 +23,21 @@ body{
     align-items:end;
     justify-content: stretch;
     border: 3px solid black;
-    border-radius: 30px;
-    margin-left: 10%;
+    border-radius: 50px;
+    margin-inline-start: 10%;
     margin-right: 10%;
     padding-left: 14%;
-    background-color: #FCE22A;
+    background-color: #f5f247f6;
 }
 .nav-bar a{
     text-decoration: none;
+    height: 20px;
     font-size: 20px;
 }
 .container-h2 h2{
     font-size: 30px;
     text-align: center;
-    margin-top: 2%;
+    margin-block-start: 2%;
 }
 .cards{
     display: flex; 
@@ -45,6 +46,8 @@ body{
 .container p{
     font-size: 20px;
     border: 2px solid black;
-    border-radius: 10px;
+    border-radius: 50px;
+    block-size: 300px;
     margin: 10px;
+    background-color: #f5f247f6;
 }
