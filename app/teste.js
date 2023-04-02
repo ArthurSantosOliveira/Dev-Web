@@ -1,33 +1,24 @@
-const carousel = document.querySelector('.carousel');
-		const imgs = carousel.querySelectorAll('img');
-		const prevBtn = carousel.querySelector('.prev');
-		const nextBtn = carousel.querySelector('.next');
-		let currentIndex = 0;
-		let imgWidth = imgs[0].clientWidth;
+var slideIndex = 1;
+showSlide(slideIndex);
 
-		function slide() {
-			carousel.style.transform = `translateX(${-imgWidth * currentIndex}px)`;
-		}
+function nextSlide() {
+  showSlide(slideIndex += 1);
+}
 
-		function nextSlide() {
-			currentIndex++;
-			if (currentIndex > imgs.length - 1) {
-				currentIndex = 0;
-			}
-			slide();
-		}
+function prevSlide() {
+  showSlide(slideIndex -= 1);
+}
 
-		function prevSlide() {
-			currentIndex--;
-			if (currentIndex < 0) {
-				currentIndex = imgs.length - 1;
-			}
-			slide();
-		}
-
-		nextBtn.addEventListener('click', nextSlide);
-		prevBtn.addEventListener('click', prevSlide);
-
-		setInterval(() => {
-			nextSlide();
-		}, 3000);
+function showSlide(n) {
+  var slides = document.getElementsByClassName("carousel-div")[0].getElementsByTagName("img");
+  if (n > slides.length) {
+    slideIndex = 1;
+  }
+  if (n < 1) {
+    slideIndex = slides.length;
+  }
+  for (var i = 0; i < slides.length; i++) {
+    slides[i].classList.remove("active");
+  }
+  slides[slideIndex - 1].classList.add("active");
+}
