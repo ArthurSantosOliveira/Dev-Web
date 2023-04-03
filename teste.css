@@ -126,3 +126,25 @@ html, body{
   text-align: center;
   word-break:keep-all;
 }
+
+
+
+.rodape-info-contato{
+  display: grid;
+  grid-template-columns:auto auto auto;
+  background-color: #717171;
+  align-items: center;
+  justify-content: space-around;
+}
+.rodape-info-contatos {
+  font-size: 25px;
+  padding: 5px;
+  width:fit-content;
+}
+.rodape-info-contatos address{
+  padding: 5px;
+}
+
+.rodaé-redes-sociais{
+  display: flex;
+}
