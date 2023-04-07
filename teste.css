@@ -105,6 +105,10 @@ body{
   animation-name: fade;
   animation-duration: 1.5s;
 }
+.mySlides img{
+  box-shadow: 20px 20px 10px;
+  border-radius: 10px;
+}
 
 @keyframes fade {
   from {opacity: .4}
