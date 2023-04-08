@@ -16,10 +16,13 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #4f4f4f;
+    border-block-start: 2px solid rgb(37, 37, 37);
+    border-block-end: 2px solid rgb(37, 37, 37);
 
 }
 .nav-bar img{
-    margin-left: 1.5% ;
+    margin-inline-start: 1.0% ;
 }
 .nav-bar a{
     font-size: 20px;
@@ -27,7 +30,7 @@ body{
 
 }
 .nav-bar a:last-child{
-    margin-right: 1.5%;
+    margin-inline-end: 1.0%;
 } 
 
 
@@ -35,10 +38,10 @@ body{
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-inline-size: 800px;
   position: relative;
   margin: auto;
-  padding-top: 5%;
+  padding-block-start: 2%;
 }
 
 /* esconde a imagem usando default */
@@ -50,9 +53,9 @@ body{
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
+  inset-block-start: 50%;
+  inline-size: auto;
+  margin-block-start: -22px;
   padding: 16px;
   color: white;
   font-weight: bold;
@@ -125,6 +128,7 @@ body{
   border-radius: 10px;
   margin: 2%;
   padding: 5px;
+  block-size: 200px;
 }
 .cards-descricao h3{
   font-size: 25px;
