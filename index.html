@@ -1,74 +1,92 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styleIndex.css">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Roboto:ital,wght@0,700;1,900&display=swap" rel="stylesheet">
-    
-    <title>Lojinha de Bike da Esther</title>
+    <link rel="stylesheet" href="teste.css">
+    <title>RatoBikeStore</title>
 </head>
 <body>
-
-
-    <div class="cabecalho">
-        <h1>Rato Bike Store</h1>
-    </div>
     <div class="nav-bar">
-        <div>
-            <a href="index.html">Home</a>
-        </div>
-        <div>
-            <a href="produtos.html">Produtos</a>
-        </div>
-        <div>
-            <a href="acessorios.html">Acessórios</a>
-        </div>
-        <div>
-            <a href="login.html">Login</a>
-        </div>
+        <img src="./imagens/logo-fundo-transparente_resized.png" alt="Logo marca da loja.">
+        <a href="index.html">Home</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="acessorios.html">Acessórios</a>
+        <a href="login.html">Login</a>
+        <form action="search-conteiner">
+        <input type="text" placeholder="Pesquisar...">
+        <button type="submit">Buscar</button>
+        </form>
     </div>
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="./imagens/speed-bike-background_resized.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="./imagens/mountain-bike-background_resized.jpeg" style="width:100%">
 
-    <div class="container">
-        <div class="cards">
-          <div class="cards-descricao">
-            <h3>Quem somos</h3>
-            <p>Nós somos apaixonados por ciclismo e estamos comprometidos em fornecer as melhores bicicletas e acessórios para atender às suas necessidades.</p>
-          </div>
-          <div class="cards-descricao">
-            <h3>Nossa filosofia</h3>
-            <p>Nossa equipe é formada por ciclistas entusiastas que estão sempre prontos para ajudá-lo a encontrar a bicicleta perfeita e os acessórios ideais para tornar a sua experiência de ciclismo ainda melhor. 
-            </p>
-            <p> Temos uma ampla seleção de bicicletas de diferentes estilos, tamanhos e preços, de marcas confiáveis e reconhecidas no mercado.</p>
-          </div>
-          <div class="cards-descricao">
-            <h3>Nossos produtos</h3>
-            <p>Nosso objetivo é fornecer um excelente atendimento ao cliente e ajudá-lo a ter a melhor experiência de ciclismo possível.</p>
-            <p>Quer você seja um ciclista experiente ou esteja apenas começando, nossa loja tem tudo o que você precisa para tornar seu passeio mais agradável e confortável.</p>
-          </div>
-        </div>
-        <div class="btn-anterior">&#10094;</div>
-        <div class="btn-proximo">&#10095;</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="./imagens/passeio-bike-em-família-background.jpg" style="width:100%">
+    </div>
+  
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+  <div class="sobre-nos">
+    <div class="cards">
+      <div class="cards-descricao">
+        <h3>Quem somos</h3>
+        <p>Uma loja especializada em bicicletas de alta qualidade para uso recreativo e competitivo, oferecendo uma ampla variedade de modelos, acessórios e equipamentos para atender às necessidades de ciclistas de todos os níveis de habilidade e preferências de estilo.</p>
       </div>
+      <div class="cards-descricao">
+        <h3>Nossa filosofia</h3>
+        <p>Uma loja de bicicletas moderna e inovadora, que oferece uma experiência de compra única e envolvente, com um ambiente acolhedor, pessoal treinado e atencioso além de uma tecnologia de ponta para ajudar os clientes a encontrar a bicicleta perfeita para suas necessidades e gostos pessoais.</p>
+      </div>
+      <div class="cards-descricao">
+        <h3>Nossos produtos</h3>
+        <p>Temos o melhor custo benefício do mercado, oferecendo produtos para diferntes níveis de ciclistas, desde o inciciante ao competidor sempre buscando a qualidade do produto para você.</p>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="rodape-info-contato">
+      <div class="rodape-info-contatos">
+        <p>Email para contato: ratobikestore@gmail.com</p>
+        <p>Número para contato: +55 (71)4402-8922</p>
+        <p>Endereço: Rua Ratatouille, número: 4.</p>
+        <p>Ⓒ  Arthur Oliveira, Ester Brito, Luís Tavarez, Luiz Barreto e Maurício Veiga</p>
       
-    <script src="app/carrosel.js"></script>
 
-        <footer>
-            <div class="rodape">
-                <!-- <img href="" src="imagens/logo-instagram-png-fundo-transparente4_resized.webp "alt="Logo Instagram">
-                 <img href="" src="" alt="Logo Gmail">
-                <img href="" src="" alt="Logo WhatsApp"> -->
-            </div>
-        </footer>    
-    
+      </div>
+        <div class="rodape-logo">
+          <img src="./imagens/logo-fundo-transparente_resized.png" alt="">
+        </div>
+      <div class ="rodape-redes-sociais">
+        <a href="https://https://web.whatsapp.com//">
+          <img src="./imagens/icons/whatsapp-icon.png" alt="" class="whatsapp-icon">
+        </a>
+        <a href="https://www.instagram.com/">
+          <img src="./imagens/icons/instagram-icon.png" alt="">
+        </a>
+      </div>
+    </div>
+  </footer>
 </body>
-
-
-
-</html> 
+<script src="teste.js"></script>
+</html>
