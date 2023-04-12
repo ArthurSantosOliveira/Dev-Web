@@ -183,41 +183,74 @@ body{
 
 
 
-.rodape-info-contato{
+.rodape-info-contatos{
   display: grid;
-  grid-template-columns:auto auto auto;
-  background-color: #717171;
-  align-items: center;
-  
-  
-}
-
-.rodape-info-contatos {
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  background-color: #1C1C1C;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
   font-size: 25px;
-  font-weight: bold; /* adiciona o estilo de fonte em negrito */
+  margin-bottom: 0px;
   padding: 5px;
-  width: fit-content;
+  height: 350px;
+  justify-content:center;
+  align-items:self-start;
 }
 
-.rodape-info-contatos p {
-  margin-bottom: 10px; /* adiciona um espaçamento de 10px entre cada p */
+
+.info-item {
+  grid-column: span 1;
 }
 
-.rodape-info-contatos address{
-  padding: 5px;
+.logo-item {
+  grid-column: span 1;
 }
-.rodape-redes-sociais{
+
+.logo-item img {
+  max-width: 100%;
+}
+
+.heading {
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  font-weight: bold;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-block-start: 5em;
+  margin-block-end: 10em;
+  margin-inline-start: 100px;
+  margin-inline-end: 100px;
+}
+
+.info-item p {
+  font-size: 15px;
+  margin-block-start: 0em;
+  margin-block-end: 1em;
+  margin-inline-start: 100px;
+  
+}
+.social-item {
+  grid-column: span 1; /* nova coluna para os ícones das redes sociais */
   display: flex;
   justify-content: center;
-  padding: 10px;
-  
+  align-items: center;
 }
 
-.rodape-redes-sociais img{
+.social-item img {
   padding: 0 2px;
+}z
+
+.copyright-item {
+  grid-column: span 5;
 }
+
 
 .whatsapp-icon {
   margin-top: 2px;
 }
+
+
 
