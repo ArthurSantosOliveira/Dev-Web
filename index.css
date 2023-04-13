@@ -175,34 +175,40 @@ body{
 
 .logo-item img {
   max-width: 100%;
+  margin-block-start: 40px;
+  margin-left: 80px;
+  width: 250px; 
+  height: 250px;
 }
 
 .heading {
-  font-size: 1em;
+  font-size: 15px;
   font-weight: bold;
   letter-spacing: 0.2em;
   font-weight: bold;
   margin-bottom: 50px;
   text-transform: uppercase;
   color: #fff;
-  margin-block-start: 5em;
-  margin-block-end: 10em;
+  margin-block-start: 140px;
+  margin-block-end: 130px;
   margin-inline-start: 100px;
   margin-inline-end: 100px;
 }
 
 .info-item p {
   font-size: 15px;
-  margin-block-start: 0em;
   margin-block-end: 1em;
   margin-inline-start: 100px;
-  
+  margin-block-start: -100px;
 }
 .social-item {
-  grid-column: span 1; /* nova coluna para os ícones das redes sociais */
+  grid-column: span 1; 
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-block-start: 160px;
+  margin-right: 4em;
+  
 }
 
 .social-item img {
@@ -213,6 +219,13 @@ body{
   grid-column: span 5;
 }
 
+.copy p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-block-start: 150px;
+  margin-inline-start: 100px;
+  
+}
 
 .whatsapp-icon {
   margin-top: 2px;
