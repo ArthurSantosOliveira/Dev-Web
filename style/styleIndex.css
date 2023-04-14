@@ -1,0 +1,115 @@
+/* 
+CORES: #1e90ff, #00ff7f 
+*/
+
+/* Slideshow container */
+.slideshow-container {
+  max-inline-size: 800px;
+  position: relative;
+  margin: auto;
+  padding-block-start: 2%;
+}
+
+/* esconde a imagem usando default */
+.mySlides {
+  display: none;
+}
+
+/* botões de passar o slide */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  inset-block-start: 50%;
+  inline-size: auto;
+  margin-block-start: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* posição do botão next */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* efeitos de transparência */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Indicdores em ponto*/
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(163, 161, 161);
+  border-radius: 50%;
+  margin-top: 2%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #272626;
+}
+
+/* Animação em fading */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.mySlides img{
+  box-shadow: 20px 20px 10px;
+  border-radius: 10px;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+.cards{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.cards-descricao{
+  display: grid;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 2%;
+  padding: 5px;
+  block-size: 250px;
+  width: 500px;
+}
+
+.cards-descricao h3{
+  font-size: 25px;
+  text-align: center;
+}
+
+.cards-descricao p{
+  font-size: 20px;
+  text-align: center;
+  word-break:keep-all;
+}

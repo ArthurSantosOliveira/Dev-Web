@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="/style/footer.css">
+    <link rel="stylesheet" href="/style/styleCadastro.css">
+    <link rel="stylesheet" href="/style/styleCabecalho.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Roboto:ital,wght@0,700;1,900&display=swap" rel="stylesheet">
+    <title>Cadastro</title>
+</head>
+<body>
+  <div class="nav-bar">
+    <a href="/html/index.html">
+      <img src="/imagens/logo-fundo-transparente_resized.png" alt="Logo marca da loja.">
+    </a>
+    <h1> Realize seu cadastro!</h1>
+  </div>
+    <section class="formulario">
+        <form class="formulario-cadastro" action="">
+            <fieldset class="formulario-campo">
+                <label class="campo-etiqueta">Nome:</label>
+                <input name = "nome" id="nome" class="campo-escrita" type="text" minlenght="3" required/>
+                <span class="mensagem-erro"></span>
+            </fieldset>
+
+            <fieldset class="formulario-campo">
+                <label class="campo-etiqueta">Email:</label>
+                <input name="email" id="email" class="campo-escrita" type="email" minlength="4" required/>
+                <span class="mensagem-erro"></span>
+            </fieldset>
+
+            <fieldset class="formulario-campo">
+                <label class="campo-etiqueta">RG:</label>
+                <input name="rg" id="rg" class="campo-escrita" type="text" required/>
+                <span class="mensagem-erro"></span>
+            </fieldset>
+
+            <fieldset class="formulario-campo">
+                <label class="campo-etiqueta">CPF:</label>
+                <input name="cpf" id="cpf" class="campo-escrita" type="text" required minlength="11" maxlength="14" pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}" />
+                <span class="mensagem-erro"></span>
+            </fieldset>
+
+            <fieldset class="formulario-campo">
+                <label class="campo-etiqueta">Data de nascimento:</label>
+                <input name="aniversario" id="aniversario" class="campo-escrita" type="date" required/>
+                <span class="mensagem-erro"></span>
+            </fieldset>
+
+            <fieldset class="formulario-termos">
+                <input type="checkbox" name="termos" id="termos" required>
+                <p class="termos-de-uso">Li e estou ciente quanto às condições de tratamento dos meu dados conforme descrtio na Política de privacidade da loja.</p>
+                <span class="mensagem-erro"></span>
+            </fieldset>
+            <div>
+                <input value="Avançar" class="formulario-botao" type="submit" id="enviar" data-botao-enviar/>
+                <span class="mensagem-erro"></span>
+                </fieldset>
+            </div>    
+        </form>
+    </section>
+    <footer>
+        <div class="rodape-info-contatos">
+          <div class="info-item">
+            <h3 class="heading">Endereço</h3>
+            <p>Rua Ratatouille, Nº 0004
+              Salvador, Bahia </p>
+          </div>
+          <div class="info-item">
+            <h3 class="heading">Contato</h3>
+            <p> +55 (71)4402-8922</p>
+          </div>
+          <div class="info-item">
+            <h3 class="heading">E-mail</h3>
+            <p>ratobikestore@gmail.com</p>
+          </div>
+          <div class="copy">
+            <p>Copyright ©2023 All rights reserved 
+              | Equipe 07</p>
+          </div>
+          <div class="logo-item">
+            <img src="/imagens/logo-fundo-transparente.png" alt="">
+          </div>
+          
+          <div class="social-item">
+            <a href="https://web.whatsapp.com/">
+              <img src="/imagens/icons/wpp.svg" alt="" class="whatsapp-icon">
+            </a>
+            <a href="https://www.instagram.com/">
+              <img src="/imagens/icons/insta.svg" alt="">
+            </a>
+          </div>
+        </div>
+        </div>
+      </footer>
+</body>
+</html>
