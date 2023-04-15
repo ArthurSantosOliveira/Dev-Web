@@ -1,7 +1,12 @@
 /* 
 CORES: #1e90ff, #00ff7f 
 */
+@import url("styleCabecalho.css");
+@import url("footer.css");
 
+.menu-toggle {
+  display: none;
+}
 /* Slideshow container */
 .slideshow-container {
   max-inline-size: 800px;
@@ -90,11 +95,11 @@ CORES: #1e90ff, #00ff7f
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  flex-direction: row;
+
 }
 
 .cards-descricao{
-  display: grid;
+  display:grid;
   border: 2px solid black;
   border-radius: 10px;
   margin: 2%;

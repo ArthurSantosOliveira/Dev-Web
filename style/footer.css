@@ -54,7 +54,7 @@
     grid-column: span 1; 
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     margin-block-start: 160px;
     margin-right: 4em;
     
@@ -62,7 +62,7 @@
   
   .social-item img {
     padding: 0 2px;
-  }z
+  }
   
   .copyright-item {
     grid-column: span 5;

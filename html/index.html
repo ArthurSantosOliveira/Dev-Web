@@ -6,20 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="/style/styleIndex.css">
-    <link rel="stylesheet" href="/style/footer.css">
-    <link rel="stylesheet" href="/style/styleCabecalho.css">
+    <link rel="stylesheet" href="/style/designMobile.css">
+
     <link rel="shortcut icon" href="/imagens/bikeico.ico" type="image/x-icon">
     <title>RatoBikeStore</title>
 </head>
 <body>
     <div class="nav-bar">
         <img src="/imagens/logo-fundo-transparente_resized.png" alt="Logo marca da loja.">
+        </button>
         <a href="index.html">Home</a>
         <a href="produtos.html">Produtos</a>
         <a href="acessorios.html">Acessórios</a>
         <a href="login.html">Login</a>
+
+
+        <button class="menu-toggle" aria-label="Abrir Menu">
+          <img src="/imagens/icons/Menu.png" alt="">
+        <div class="nav-menu-hamburguer">
+          <a href="index.html">Home</a>
+          <a href="produtos.html">Produtos</a>
+          <a href="acessorios.html">Acessórios</a>
+          <a href="login.html">Login</a>
+        </div>
     </div>
-    
+
+
+
   <div class="slideshow-container">
     <div class="mySlides fade">
       <div class="numbertext"></div>
@@ -48,6 +61,7 @@
     <span class="dot" onclick="currentSlide(2)"></span>
     <span class="dot" onclick="currentSlide(3)"></span>
   </div>
+  
   <div class="sobre-nos">
     <div class="cards">
       <div class="cards-descricao">
@@ -100,4 +114,5 @@
   </footer>
 </body>
 <script src="/app/teste.js"></script>
+<script src="/app/menuHamburguer.js"></script>
 </html>
