@@ -4,42 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="/style/reset.css">
     <link rel="stylesheet" href="/style/styleIndex.css">
-    <link rel="stylesheet" href="/style/designMobile.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-9vYm29lZ/MTzKjV7pNvOc8rPJyrs94SDbwlL7XOysdNoBGVh5HJZVL6UcJfUvzEw2sgDkmslKnUuzljkkIv4Kw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
     <link rel="shortcut icon" href="/imagens/bikeico.ico" type="image/x-icon">
     <title>RatoBikeStore</title>
 </head>
 <body>
-    <div class="nav-bar">
-        <img src="/imagens/logo-fundo-transparente_resized.png" alt="Logo marca da loja.">
-        </button>
-        <a href="index.html">Home</a>
-        <a href="produtos.html">Produtos</a>
-        <a href="acessorios.html">Acessórios</a>
-        <a href="login.html">Login</a>
-    <div class="search-conteiner">
+    
+    <nav>
+      <input type="checkbox" name="" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fa fa-bars"></i>
+      </label>
+
+      <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">Produtos</a></li>
+        <li><a href="#">Acessórios</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+      <img class="imagem" src="/imagens/logo-fundo-transparente_resized.png" alt="">
       <form action="/search">
-        <input type="text" placeholder="Pesquisar..." name="search">
-        <button type="submit">Buscar</button>
+        <input class="pesquisa" type="text" placeholder="Pesquisar..." name="search">
+        <button class="pesquisa"type="submit">Buscar</button>
       </form>
-    </div>
+    </nav>
 
 
-        <button class="menu-toggle" aria-label="Abrir Menu">
-          <img src="/imagens/icons/Menu.png" alt="">
-        <div class="nav-menu-hamburguer">
-          <a href="index.html">Home</a>
-          <a href="produtos.html">Produtos</a>
-          <a href="acessorios.html">Acessórios</a>
-          <a href="login.html">Login</a>
-        </div>
-    </div>
-
-
-
+ 
   <div class="slideshow-container">
     <div class="mySlides fade">
       <div class="numbertext"></div>

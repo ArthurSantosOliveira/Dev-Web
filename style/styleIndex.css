@@ -4,9 +4,10 @@ CORES: #1e90ff, #00ff7f
 @import url("styleCabecalho.css");
 @import url("footer.css");
 
-.menu-toggle {
-  display: none;
+*{
+  font-family: 'Times New Roman', Times, serif;
 }
+
 /* Slideshow container */
 .slideshow-container {
   max-inline-size: 800px;
