@@ -106,9 +106,15 @@ a.active,a:hover{
     .slideshow-container{
         display: none;
     }
+    .ponto{
+        display: none;
+    }
 }
 
 @media(max-width:768px){
+    .imagem{
+        margin-left: 5%;
+    }
     .checkbtn{
         display: block;
         margin-top: 4%;
@@ -119,7 +125,7 @@ a.active,a:hover{
     ul{
         position: fixed;
         width: 30%;
-        height: 100vh;
+        height: 100%;
         background: #2c3e50;
         top: 19.5%;
         right: -110%;
@@ -133,7 +139,6 @@ a.active,a:hover{
     }
     nav ul li a{
         font-size: 20px;
-
     }
     a:hover,a.active{
         background: none;
@@ -145,5 +150,45 @@ a.active,a:hover{
     }
     .slideshow-container {
         display: none;
+    }
+    .ponto{
+        display: none;
+    }
+}
+
+@media(max-width:375px){
+    ul{
+        position: fixed;
+        width: 40%;
+        height: 100%;
+        background: #2c3e50;
+        top: 22.5%;
+        right: -110%;
+        text-align: right;
+        transition: all .5s;
+
+    }
+    nav ul li{
+        display: block;
+        
+    }
+    #check:checked ~ul{
+        margin: 0px;
+        right: 0;
+    }
+    .pesquisa{
+        display: none;
+    }
+    .checkbtn{
+        margin-top: 10%;
+    }
+    .info-item{
+        margin-right: 10%;
+    }
+    .copy{
+        margin-right: 10%;
+    }
+    .social-item{
+        margin-left: 20%;
     }
 }
