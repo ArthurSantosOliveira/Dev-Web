@@ -111,6 +111,7 @@ a.active,a:hover{
 @media(max-width:768px){
     .checkbtn{
         display: block;
+        margin-top: 4%;
     }
     .pesquisa{
         margin-top: 10%;
