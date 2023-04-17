@@ -1,121 +1,122 @@
 .rodape-info-contatos{
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 10px;
-    background-color: #1C1C1C;
-    color: #fff;
-    font-family: "Open Sans", sans-serif;
-    font-size: 25px;
-    margin-bottom: 0px;
-    padding: 5px;
-    height: 350px;
-    justify-content:center;
-    align-items:self-start;
-  }
-  
-  
-  .info-item {
-    grid-column: span 1;
-  }
-  
-  .logo-item {
-    grid-column: span 1;
-  }
-  
-  .logo-item img {
-    max-width: 100%;
-    margin-block-start: 40px;
-    margin-left: 40px;
-    width: 250px; 
-    height: 250px;
-  }
-
-  .logo-item img a{
-      color:#de4029
-  }
-   
-  .heading {
-    font-size: 17px;
-    font-weight: bold;
-    letter-spacing: 0.2em;
-    font-weight: bold;
-    margin-bottom: 50px;
-    text-transform: uppercase;
-    color: #fff;
-    margin-block-start: 145px;
-    margin-block-end: 130px;
-    margin-inline-start: 100px;
-    margin-inline-end: 100px;
-  }
-
-  .info-item {
-    grid-column: span 1;
-  }
-
-  .info-item p {
-    transition: transform 0.3s ease-in-out;
-  }
-
-  .info-item p:hover {
-    color: #1b9bff;
-    transform: scale(1.1);
-  }
-
-  .info-item p {
-    font-size: 16px;
-    font-weight: bold;
-    margin-block-end: 1em;
-    margin-inline-start: 100px;
-    margin-block-start: -100px;
-  }
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  background-color: #1C1C1C;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  margin-bottom: 0px;
+  padding: 5px;
+  height: 350px;
+}
 
 
-  .social-item {
-    grid-column: span 1; 
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-    margin-block-start: 160px;
-    margin-right: 4em;
-    position: relative;
-  }
+.logo-item {
+  grid-column: span 1;
+  text-decoration: none;
+}
 
-  .whatsapp-icon, .instagram-icon {
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .whatsapp-icon:hover, .instagram-icon:hover {
-    transform: scale(1.2);
-  }
+.logo-item img {
+  text-decoration: none;
+  max-width: 100%;
+  margin-block-start: 40px;
+  margin-left: 40px;
+  width: 250px; 
+  height: 250px;
+}
 
-  .social-item img {
-    padding: 0 2px;
-  }
+ .logo-item a{
+  text-decoration: none;  
+}
+
+.heading {
+  font-size: 17px;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  font-weight: bold;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-block-start: 145px;
+  margin-block-end: 130px;
+  margin-inline-start: 100px;
+  margin-inline-end: 100px;
+}
+
+ .info-item {
+  grid-column: span 1;
+}
+
+ .info-item p {
+  transition: transform 0.3s ease-in-out;
+}
+
+ .info-item p:hover {
+  color:#de4029;
+  transform: scale(1.1);
+}
+
+ .info-item p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-block-end: 1em;
+  margin-inline-start: 100px;
+  margin-block-start: -100px;
+}
+
+ .social-item {
+  grid-column: span 1; 
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin-block-start: 160px;
+  margin-right: 4em;
+  position: relative;
+}
+
+ .whatsapp-icon, .instagram-icon {
+  transition: transform 0.3s ease-in-out;
+  height: 52px;
+  margin: 10px;
+  font-size: 1.5em;
+  color: white;
+
+ }
+/* .fa-whatsapp, .fa-instagram{
+} */
+
+.whatsapp-icon:hover, .instagram-icon:hover {
+  transform: scale(1.2);
+  color: #de4029;
+
+}
+
+ .social-item img {
+   padding: 0 2px;
+}
+
+ .copyright-item {
+  grid-column: span 5;
+}
 
 
-  .copyright-item {
-    grid-column: span 5;
-  }
-  
-  .copy p {
-    font-size: 20px;
-    font-weight: bold;
-    margin-block-start: 150px;
-    margin-inline-start: 100px;
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .copy p:hover {
-    color: #de4029;
-    transform: scale(1.1);
-  }
+.copy p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-block-start: 150px;
+  margin-inline-start: 100px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.copy p:hover {
+  color: #de4029;
+  transform: scale(1.1);
+}
  
-
-  @media(max-width:768px){
-    .rodape-info-contatos{
-      display: block;
-      width: 100%;
-      height: 100%;
-    }
+ @media(max-width:768px){
+  .rodape-info-contatos{
+    display: block;
+    width: 100%;
+    height: 100%;
   }
-
+}
