@@ -44,9 +44,41 @@ nav{
     height: 150px;
     width: 100%;
 }
+
+
 .pesquisa{
     margin-top: 5%;
 }
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  input[type="text"] {
+    width: 300px; 
+    height: 30px; 
+    padding: 5px; 
+    border: none; 
+    border-radius: 8px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+  }
+  
+  button[type="submit"] {
+    padding: 5px 10px;
+    background-color: #a0a0a0;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0062cc;
+  }
+
 label.logo{
     color: white;
     font-size: 35px;
