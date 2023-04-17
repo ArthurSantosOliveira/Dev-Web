@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,900&display=swap');
 @import url("styleCabecalho.css");
 @import url("footer.css");
-
+form{
+    display: block;
+}
 .formulario {
     max-width: 550px;
     margin: 0 auto;
