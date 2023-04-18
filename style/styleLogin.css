@@ -36,7 +36,11 @@ body{
     margin-inline-end: 1.0%;
 }  */
 
-
+form{
+    display: grid;
+    justify-content: center;
+    
+}
 .input{
     border-radius: 5px;
     width: 200px;
@@ -50,7 +54,12 @@ body{
     font-size: 40px;
     margin: 15px;
 }
+
 .formulario-login{
+    border: solid 2px;
+    border-radius: 10px;
+    block-size: auto;
+    width: fit-content;
     display: grid;
     align-items: center;
     justify-content: center;
