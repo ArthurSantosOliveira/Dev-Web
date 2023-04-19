@@ -2,6 +2,8 @@
 CORES: #1e90ff, #00ff7f 
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Roboto:ital,wght@0,700;1,900&family=Sora:wght@300&display=swap');
+
 @import url("styleCabecalho.css");
 @import url("footer.css");
 
@@ -15,7 +17,10 @@ body{
     color: white;
     background-repeat: no-repeat;
 }
-
+.geral{
+    display: grid;
+    grid-template-columns: auto auto;
+}
 .sobre-grupo-sete {
     /* border: 2px solid white; */
     width: 30rem;
@@ -24,11 +29,24 @@ body{
     float: left;
     font-size: 20px;
     text-align: center;
-
+}
+.sobre-grupo-sete h2{
+    font-family: 'Carter One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sora', sans-serif;
 }
 .sobre-grupo-sete p{
     display: flex;
     padding: 2em;
+}
+.sobre-grupo-sete ul{
+    padding: 0.5em;
+    text-align: start;
+}
+
+.sobre-grupo-sete i{
+    padding: 0.3em;
+    color: white;
 }
 
 /* form{
@@ -86,12 +104,12 @@ body{
     }
 }
 
-a{
+.cadastro{
     color: #60fb50;
     transition: transform 0.3s ease-in-out;
 }
 
-a:hover{
+.cadastro:hover{
     transform: scale(1.2);
-    color: #de4029;
+    /* color: #de4029; */
 }
