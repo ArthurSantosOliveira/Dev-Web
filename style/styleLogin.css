@@ -16,10 +16,19 @@ body{
     background-repeat: no-repeat;
 }
 
-div{
+.sobre-grupo-sete {
+    /* border: 2px solid white; */
+    width: 30rem;
+    height: 20rem;
+    margin: 10em;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+
+}
+.sobre-grupo-sete p{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 2em;
 }
 
 /* form{
@@ -37,7 +46,7 @@ div{
 
 .formulario-login{
     float: right;
-    margin: 15em;
+    margin: 10em;
 }
 .formulario-login div{
     font-size: 40px;
