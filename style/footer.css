@@ -74,7 +74,7 @@
   position: relative;
 }
 
- .whatsapp-icon, .instagram-icon {
+ .icon {
   transition: transform 0.3s ease-in-out;
   height: 52px;
   margin: 10px;
@@ -89,13 +89,11 @@
   margin: 12px;
 }
 
-.whatsapp-icon:hover, .instagram-icon:hover, .link-icon:hover {
+.icon:hover{
   transform: scale(1.2);
   color: #de4029;
 
 }
-
-
 
  .social-item img {
    padding: 0 2px;
