@@ -84,12 +84,18 @@
  }
 /* .fa-whatsapp, .fa-instagram{
 } */
+.link-icon{
+  transition: transform 0.3s ease-in-out;
+  margin: 12px;
+}
 
-.whatsapp-icon:hover, .instagram-icon:hover {
+.whatsapp-icon:hover, .instagram-icon:hover, .link-icon:hover {
   transform: scale(1.2);
   color: #de4029;
 
 }
+
+
 
  .social-item img {
    padding: 0 2px;

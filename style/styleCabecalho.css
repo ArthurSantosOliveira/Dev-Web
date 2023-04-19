@@ -38,6 +38,7 @@ body{
     display: flex;
     float: left;
     margin-left: 1%;
+    margin-top: -0.2%;
 }
 nav{
     background-color:  #1C1C1C;
@@ -45,9 +46,13 @@ nav{
     width: 100%;
 }
 
-
+.lupa{
+    margin-right: 3%;
+}
 .pesquisa{
-    margin-top: 5%;
+    margin-top: 3.5%;
+    margin-left: 10%;
+    
 }
 .busca{
     display: flex;
@@ -76,7 +81,7 @@ nav{
   }
   
   button[type="submit"]:hover {
-    background-color: #0062cc;
+    background-color: #de4029;
   }
 
 label.logo{
@@ -108,8 +113,8 @@ nav ul li a{
 }
 
 nav ul li a.active,nav ul li a:hover{
-    background: #1b9bff;
-    transition: .5s;
+    background-color: #272626;
+    color: #de4029;
 }
 
 .checkbtn{
@@ -157,7 +162,7 @@ nav ul li a.active,nav ul li a:hover{
         position: fixed;
         width: 30%;
         height: 100%;
-        background: #2c3e50;
+        background: #1C1C1C;
         top: 19.5%;
         right: -110%;
         text-align: right;
@@ -170,18 +175,25 @@ nav ul li a.active,nav ul li a:hover{
     }
     nav ul li a{
         font-size: 20px;
+        transition: transform 0.3s ease-in-out;
     }
-    a:hover,a.active{
-        background: none;
-        color:#0082e6;
+
+   
+
+    nav ul li a:hover,nav ul li a.active{
+        color: #de4029;
+        transform: scale(1.1);
     }
+
     #check:checked ~ul{
         margin: 0px;
         right: 0;
     }
+
     .slideshow-container {
         display: none;
     }
+
     .ponto{
         display: none;
     }
@@ -192,7 +204,7 @@ nav ul li a.active,nav ul li a:hover{
         position: fixed;
         width: 40%;
         height: 100%;
-        background: #2c3e50;
+        background: #272626;
         top: 22.5%;
         right: -110%;
         text-align: right;
