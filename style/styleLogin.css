@@ -39,31 +39,34 @@ body{
 form{
     display: grid;
     justify-content: center;
-    
+    margin: 10em;
+    border: solid 2px;
+    border-radius: 10px;
 }
 .input{
     border-radius: 5px;
     width: 200px;
-    height: 25px;
+    height: 1.875em;
 }
-.formulario-login h1{
-    margin-top: 25%;
-    font-size: 35px;
+
+div label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .formulario-login div{
     font-size: 40px;
     margin: 15px;
 }
 
-.formulario-login{
-    border: solid 2px;
-    border-radius: 10px;
-    block-size: auto;
+.formulario-login h1{
+    padding-top: 1em;
+    text-align: center;
+    font-size: 35px;
+}
+.formulario-login a{
     width: fit-content;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    font-size: 30px;
+    margin: 1em;
 }
 
 .btn-login:hover{
@@ -80,5 +83,5 @@ form{
     font-size: 15px;
 }
 .cadastro:hover{
-    font-size: 20px;
+    font-size: 1.25em;
 }
