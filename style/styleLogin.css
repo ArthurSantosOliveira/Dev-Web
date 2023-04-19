@@ -11,8 +11,9 @@ html, body{
     /* background-image: linear-gradient(to bottom,#717171, #ffffff); */
 }
 body{
-  background-image: linear-gradient(to bottom,#717171, #ffffff);
-  background-repeat: no-repeat;
+    background-image: url("/imagens/backgroundLogin.png");
+    color: white;
+    background-repeat: no-repeat;
 }
 /* .nav-bar {
     display: flex;
@@ -35,9 +36,17 @@ body{
 .nav-bar a:last-child{
     margin-inline-end: 1.0%;
 }  */
-
-.form{
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label{
     display: grid;
+
+}
+.form{
+    display: flex;
     justify-content: center;
     margin: 10em;
 }
@@ -47,11 +56,7 @@ body{
     height: 1.875em;
 }
 
-div label{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .formulario-login div{
     font-size: 40px;
     margin: 15px;
@@ -81,8 +86,8 @@ div label{
     font-size: 15px;
 }
 .cadastro:hover{
-    font-size: 1.25em;
-}
+    font-size: 1.2rem;
+} 
 
 @media (min-width:375px){
     .form{
