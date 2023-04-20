@@ -85,3 +85,13 @@ body{
         display: flex;
     }
 }
+
+a{
+    color: #60fb50;
+    transition: transform 0.3s ease-in-out;
+}
+
+a:hover{
+    transform: scale(1.2);
+    color: #de4029;
+}
