@@ -15,9 +15,9 @@ html, body{
     /* background-image: linear-gradient(to bottom,#717171, #ffffff); */
 }
 body{
-    background-image: url("/imagens/backgroundLogin.png");
+    background-image: url("/imagens/bg.png");
     color: white;
-    background-repeat: no-repeat;
+    background-size: cover;  
 }
 .geral{
     display: grid;
@@ -71,6 +71,7 @@ body{
 .formulario-login{
     float: right;
     margin: 10em;
+    text-align: center;
 }
 .formulario-login div{
     font-size: 40px;
@@ -81,6 +82,10 @@ body{
     padding-top: 1em;
     text-align: center;
     font-size: 35px;
+}
+.login{
+    display: grid;
+    padding: 3em;
 }
 .enviar-cadastro{
     display: flex;
