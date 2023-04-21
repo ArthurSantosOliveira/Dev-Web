@@ -87,15 +87,18 @@ body{
     align-items: center;
     justify-content: center;
 }
-.btn-login:hover{
-    transform: scale(1.1);
-    transition: all 0.5s;
-}
+
 .btn-login{
     width: 100px;
     height: 35px;
     border-radius: 10px;
 }
+
+.btn-login:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
 .cadastro{
     margin-left: 10px;
     font-size: 15px;
