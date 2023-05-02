@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="./style/styleCadastro.css">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="../style/styleCadastro.css">
     <!-- <link rel="stylesheet" href="/style/footer.css">
     <link rel="stylesheet" href="/style/styleCabecalho.css">  -->
     
@@ -23,7 +23,7 @@
       <li><a  href="./index.html">Home</a></li>
       <li><a href="./html/produtos.html">Bicicletas</a></li>
       <li><a href="./html/acessorios.html">Acessórios</a></li>
-      <li><a class="active" href="./html/login.html">Login</a></li>
+      <li><a class="active" href="./html/login.php">Login</a></li>
     </ul>
     <img class="imagem" src="./imagens/logo-fundo-transparente_resized.png" alt="">
   </nav>
@@ -99,7 +99,7 @@
               <img src="./imagens/icons/wpp.svg" alt="" class="whatsapp-icon">
             </a>
             <a href="https://www.instagram.com/">
-              <img src="./imagens/icons/insta.svg" alt="">
+              <img src="../imagens/icons/insta.svg" alt="">
             </a>
           </div>
         </div>
