@@ -28,7 +28,7 @@
     <img class="imagem" src="./imagens/logo-fundo-transparente_resized.png" alt="">
   </nav>
     <section class="formulario">
-        <form class="formulario-cadastro" action="">
+        <form class="formulario-cadastro" action="" method="">
             <fieldset class="formulario-campo">
                 <label class="campo-etiqueta">Nome:</label>
                 <input name = "nome" id="nome" class="campo-escrita" type="text" minlenght="3" required/>
