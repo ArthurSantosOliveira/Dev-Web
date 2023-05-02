@@ -8,7 +8,7 @@ CORES: #1e90ff, #00ff7f
   font-family: 'Times New Roman', Times, serif;
 }
 body{
-  background-image: url("/imagens/backgroundIndex.png");
+  background-image: url("../imagens/backgroundIndex.png");
   /* background-repeat: no-repeat; */
 }
 

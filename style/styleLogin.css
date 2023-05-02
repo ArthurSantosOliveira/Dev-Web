@@ -1,5 +1,6 @@
 /* 
 CORES: #1e90ff, #00ff7f 
+../imagens/bg.png
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Roboto:ital,wght@0,700;1,900&family=Sora:wght@300&display=swap');
@@ -15,7 +16,7 @@ html, body{
     /* background-image: linear-gradient(to bottom,#717171, #ffffff); */
 }
 body{
-    background-image: url("/imagens/bg.png");
+    background-image: url("../imagens/backgroundLogin.png");
     color: white;
     background-size: cover;  
 }
