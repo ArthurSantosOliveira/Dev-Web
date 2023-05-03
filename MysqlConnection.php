@@ -11,11 +11,11 @@ $pdo = new PDO("mysql:host=localhost;dbname=rato", "root", "");
 
 $sql = "CREATE DATABASE IF NOT EXISTS rato";
 
-if ($pdo->query($sql) === TRUE) {
-  echo "Banco de dados rato criado com sucesso!<br>";
-} else {
-  echo "Erro ao criar banco de dados: " . $pdo->errorInfo()[2];
-}
+// if ($pdo->query($sql) === TRUE) {
+//   echo "Banco de dados rato criado com sucesso!<br>";
+// } else {
+//   echo "Erro ao criar banco de dados: " . $pdo->errorInfo()[2];
+// }
 
 
 $sql = "CREATE TABLE IF NOT EXISTS clientes (
@@ -27,11 +27,11 @@ $sql = "CREATE TABLE IF NOT EXISTS clientes (
   senha VARCHAR(50) NOT NULL
 )";
 
-if ($pdo->query($sql) === TRUE) {
-  echo "Tabela clientes criada com sucesso!<br>";
-} else {
-  echo "Erro ao criar tabela: " . $pdo->errorInfo()[2];
-}
+// if ($pdo->query($sql) === TRUE) {
+//   echo "Tabela clientes criada com sucesso!<br>";
+// } else {
+//   echo "Erro ao criar tabela: " . $pdo->errorInfo()[2];
+// }
 
 $stmt = $pdo->prepare("INSERT INTO clientes (nome, email, rg, cpf, senha) VALUES (?, ?, ?, ?, ?)");
 $stmt->bindValue(1, $nome);
