@@ -1,24 +1,7 @@
 <?php
-session_start();
-
-$nome = $_POST['nome'];
-$email = $_POST['email'];
-$rg = $_POST['rg'];
-$cpf = $_POST['cpf'];
-$senha = $_POST['senha'];
-
 $pdo = new PDO("mysql:host=localhost;dbname=rato", "root", "");
 
-$sql = "CREATE DATABASE IF NOT EXISTS rato";
-
-// if ($pdo->query($sql) === TRUE) {
-//   echo "Banco de dados rato criado com sucesso!<br>";
-// } else {
-//   echo "Erro ao criar banco de dados: " . $pdo->errorInfo()[2];
-// }
-
-
-$sql = "CREATE TABLE IF NOT EXISTS clientes (
+$sql = "CREATE DATABASE IF NOT EXISTS rato, CREATE TABLE IF NOT EXISTS clientes (
   id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   nome VARCHAR(50) NOT NULL,
   email VARCHAR(50) NOT NULL,
@@ -26,12 +9,17 @@ $sql = "CREATE TABLE IF NOT EXISTS clientes (
   cpf VARCHAR(14) NOT NULL,
   senha VARCHAR(50) NOT NULL
 )";
+if ($pdo->query($sql) === TRUE) {
+  echo "Banco de dados rato criado com sucesso!<br>";
+} else {
+      echo "Erro ao criar banco de dados: " . $pdo->errorInfo()[2];
+}
+$nome = $_POST['nome'];
+$email = $_POST['email'];
+$rg = $_POST['rg'];
+$cpf = $_POST['cpf'];
+$senha = $_POST['senha'];
 
-// if ($pdo->query($sql) === TRUE) {
-//   echo "Tabela clientes criada com sucesso!<br>";
-// } else {
-//   echo "Erro ao criar tabela: " . $pdo->errorInfo()[2];
-// }
 
 $stmt = $pdo->prepare("INSERT INTO clientes (nome, email, rg, cpf, senha) VALUES (?, ?, ?, ?, ?)");
 $stmt->bindValue(1, $nome);
