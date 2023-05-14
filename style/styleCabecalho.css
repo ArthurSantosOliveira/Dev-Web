@@ -82,11 +82,13 @@ nav ul li a{
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
+    font-family: 'Intro Demo', sans-serif;
 }
 
 nav ul li a.active,nav ul li a:hover{
     background-color: #272626;
     color: #de4029;
+    
 }
 
 .checkbtn{
@@ -161,6 +163,7 @@ nav ul li a.active,nav ul li a:hover{
     nav ul li a{
         font-size: 20px;
         transition: transform 0.3s ease-in-out;
+        
     }
 
    
