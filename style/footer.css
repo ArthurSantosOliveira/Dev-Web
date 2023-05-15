@@ -14,7 +14,6 @@
 }
 
 .logo-item img {
-  text-decoration: none;
   max-width: 100%;
   margin-block-start: 40px;
   margin-left: 40px;
@@ -22,9 +21,7 @@
   height: 250px;
 }
 
- .logo-item a{
-  text-decoration: none;  
-}
+
 
 .heading {
   font-size: 17px;
@@ -55,11 +52,13 @@
 }
 
  .info-item p {
+  font-family: 'Albertus MT Std', sans-serif;
   font-size: 16px;
   font-weight: bold;
   margin-block-end: 1em;
   margin-inline-start: 100px;
   margin-block-start: -100px;
+  
 }
 
  .social-item {
@@ -103,11 +102,11 @@
 
 
 .copy p {
-  font-size: 20px;
-  font-weight: bold;
-  margin-block-start: 150px;
+  font-size: 12px;
+  margin-block-start: 170px;
   margin-inline-start: 100px;
   transition: transform 0.3s ease-in-out;
+  font-family: 'Intro Demo', sans-serif;
 }
 
 .copy p:hover {

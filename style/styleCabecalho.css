@@ -18,30 +18,26 @@ nav{
     width: 100%;
 }
 
-.lupa{
-    margin-right: 3%;
-}
 .pesquisa{
     margin-top: 3.5%;
     margin-left: 10%;
-    
-}
-.busca{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  input[type="text"] {
     width: 600px; 
     height: 30px; 
     padding: 5px; 
     border: none; 
     border-radius: 8px; 
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
-  }
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.busca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
   
-  button[type="submit"] {
+  
+.lupa {
+    margin-right: 3%;
     padding: 5px 10px;
     background-color: #2471de;
     color: #fff;

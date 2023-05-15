@@ -66,16 +66,25 @@ body{
     border-radius: 5px;
     width: 200px;
     height: 1.875em;
+    margin: 30px;
+    background: none;
+    border: none;
+    outline: none;
+    max-width: 190px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 9999px;
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+    color: #fff;
 }
 
 .formulario-login{
     float: right;
-    margin: 10em;
+   
     text-align: center;
 }
 .formulario-login div{
     font-size: 40px;
-    margin: 15px;
 }
 
 .formulario-login h1{
@@ -84,34 +93,98 @@ body{
     font-size: 35px;
     font-family: 'Intro Demo', sans-serif;
 }
+
+.formulario-login label{
+    
+    font-size: 30px;
+}
 .login{
     display: grid;
-    padding: 3em;
+    padding: 1em;
 }
 .enviar-cadastro{
-    display: flex;
-    align-items: center;
+    display: grid;
     justify-content: center;
+    font-family: 'New Comic Title Bold Italic', sans-serif;
 }
 
-.btn-login{
-    width: 100px;
-    height: 35px;
-    border-radius: 10px;
-}
-
-.btn-login:hover{
-    transform: scale(1.1);
-    transition: all 0.5s;
-}
-
-.cadastro{
-    margin-left: 10px;
+button {
+    transition: transform 0.3s ease-in-out;
+    margin: 1em;
+    width: 9em;
+    height: 3em;
+    border-radius: 30em;
     font-size: 15px;
-}
-.cadastro:hover{
-    font-size: 1.2rem;
-} 
+    font-family: inherit;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    color: #1c1c1c;;
+    box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
+   }
+
+   button:hover{
+    transform: scale(1.2);
+    
+   }
+   
+   button::before {
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #de4029 0%, #e06310 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   button:hover::before {
+    width: 9em;
+   }
+
+   .cadastro {
+    color: #2471de;
+    transition: transform 0.3s ease-in-out;
+    width: 9em;
+    height: 3em;
+    border-radius: 30em;
+    font-size: 15px;
+    font-family: inherit;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
+   }
+
+   .cadastro:hover{
+    transform: scale(1.2);
+    
+    }
+    .cadastro::before {
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   .cadastro:hover::before {
+    width: 9em;
+   }
 
 @media (min-width:375px){
     .form{
@@ -119,15 +192,9 @@ body{
     }
 }
 
-.cadastro{
-    color: #60fb50;
-    transition: transform 0.3s ease-in-out;
-}
 
-.cadastro:hover{
-    transform: scale(1.2);
-    /* color: #de4029; */
-}
+
+
 
 /* PRODUTOS CSS PRODUTOS CSS não consegui fazer a pagina direto no styleprodutos.css so consegui por aqui */
 /*
