@@ -13,6 +13,7 @@ h8{
     font-size: 35px;
     margin: 0;
     padding-top: 10px;
+    font-family: 'Cracker State', sans-serif;
 }
 a{
 text-decoration: none;
@@ -57,13 +58,21 @@ p{
     font-size: 20px;
     font-weight: 20;
     text-align: center;
-    color: gray;
+    color: #b83a27;
+    font-family: 'Dishcek', sans-serif;
 }
 h6{
     font-size:26px;
     text-align: center;
     color: rgb(255, 255, 255);
     margin: 0;
+    font-family: 'Dishcek', sans-serif;
+}
+h7{
+    font-size: 18px;
+    text-decoration: line-through;
+    color:gray;
+    font-family: 'Dishcek', sans-serif;
 }
 ul{
     list-style: none;
@@ -109,3 +118,33 @@ button{
         width: 100%;
     }
 }
+
+.buy {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #01a013;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+  }
+  
+  .buy:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #01a013;
+    box-shadow: 5px 5px 0px #01a013;
+  }
+  
+  .buy:active {
+    background-color: #fcf414;
+    box-shadow: none;
+    transform: translateY(4px);
+  }
+
+  

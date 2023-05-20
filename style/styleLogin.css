@@ -17,8 +17,12 @@ html, body{
 body{
     background-image: url("../imagens/backgroundLogin.png");
     color: white;
-    background-size: cover;  
+    background-size:cover;  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150% 150%;
 }
+
 .geral{
     display: grid;
     grid-template-columns: auto auto;
