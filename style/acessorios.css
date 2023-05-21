@@ -62,11 +62,17 @@ p{
     font-family: 'Dishcek', sans-serif;
 }
 h6{
-    font-size:26px;
+    font-size:22px;
     text-align: center;
     color: rgb(255, 255, 255);
     margin: 0;
     font-family: 'Dishcek', sans-serif;
+    transition: transform 0.3s ease-in-out;
+}
+
+h6:hover{
+    transform: scale(1.2);
+    color: #37d30b;
 }
 h7{
     font-size: 18px;

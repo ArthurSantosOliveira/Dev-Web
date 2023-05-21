@@ -87,8 +87,8 @@ body{
 }
 .formulario-login{
     float: right;
-   
     text-align: center;
+    padding:  120px;
 }
 .formulario-login div{
     font-size: 40px;
@@ -97,7 +97,7 @@ body{
 .formulario-login h1{
     padding-top: 1em;
     text-align: center;
-    font-size: 35px;
+    font-size: 32px;
     font-family: 'Intro Demo', sans-serif;
 }
 
@@ -188,6 +188,7 @@ body{
    .cadastro:hover::before {
     width: 9em;
    }
+   
 
 @media (min-width:375px){
     .form{
