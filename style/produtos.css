@@ -53,7 +53,7 @@ text-decoration: none;
     margin: 0 auto ;
     display:block;
 }
-p{
+.content p{
     font-size: 18px;
     font-weight: 20;
     text-align: center;
