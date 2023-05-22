@@ -4,8 +4,9 @@
 @import url("styleCabecalho.css");
 @import url("footer.css");
 
-
-
+@import url("produtos.css");
+/*
+LINKEI O CSS DO PRODUTOS (OU BICICLETAS) PARA OS ACESSORIOS POIS SÃO AS MESMAS PROPRIEDADES E EU TINHA Q FICAR MEXENDO NOS DOIS QUANDO QUERIA ALTERAR ALGO - MAURICIO
 footer {
     bottom: 0;
     width: 100%;
@@ -19,10 +20,10 @@ html, body{
 }
 h8{
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
     margin: 0;
     padding-top: 10px;
-    font-family: 'Cracker State', sans-serif;
+    font-family: 'Lilita One', sans-serif;
 }
 a{
 text-decoration: none;
