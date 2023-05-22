@@ -156,14 +156,17 @@ body{
   padding-top: 0.5em;
   font-size: 25px;
   text-align: center;
+  font-family: 'No more lies', sans-serif;
+                                               
 }
 
 .card2 p{
   color: white;
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
   word-break:keep-all;
   line-height: 2em;
+  font-family: 'No more lies', sans-serif;                                                 
 }
 
 @media(max-width:390px){

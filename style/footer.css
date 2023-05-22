@@ -3,7 +3,6 @@
   width: 100%;
   grid-template-columns: auto auto auto auto auto auto;
   gap:10px;
-  padding: 10px;
   background-color: #000000;
   color: #fff;
   font-family: "Open Sans", sans-serif;

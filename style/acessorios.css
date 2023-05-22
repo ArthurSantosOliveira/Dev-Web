@@ -4,6 +4,15 @@
 @import url("styleCabecalho.css");
 @import url("footer.css");
 
+
+
+footer {
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+   
+  }
+
 html, body{
     margin: 0;
     font-family: sans-serif;
@@ -19,10 +28,9 @@ a{
 text-decoration: none;
 }
 .gallery{
-    width: 100%;
-    height: 100%;
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
     justify-content: center;
     align-items: center;
     margin: 50px 0;
@@ -55,7 +63,7 @@ text-decoration: none;
     display:block;
 }
 .content p{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 20;
     text-align: center;
     color: #b83a27;
@@ -90,15 +98,15 @@ ul{
 li{
     padding: 5px;
 }
-.fa{
-    font-size: 26px;
+.fa:not(.fa-whatsapp, .fa-instagram){
+    font-size: 20px;
     transition: .4s;
 }
 .checked{
     color: rgb(255, 205, 90);
 }
 .fa:hover{
-    transform: scale(1,2);
+    transform: scale(1.2);
     transition: .6s;
 }
 button{
@@ -151,6 +159,14 @@ button{
     background-color: #fcf414;
     box-shadow: none;
     transform: translateY(4px);
+  }
+
+  .logo-item img {
+    max-width: 100%;
+    margin-block-start: 40px;
+    margin-left: -10px;
+    width: 250px; 
+    height: 250px;
   }
 
   
