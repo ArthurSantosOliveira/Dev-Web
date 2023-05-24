@@ -17,5 +17,6 @@ $stmt->bindValue(3, $cpf);
 $stmt->bindValue(4, $senhaHash); // Armazena o hash da senha no banco de dados
 $stmt->execute();
 
+header("Location: ./html/cliente.php");
 echo "Cadastro feito com sucesso!<br>";
 ?>
