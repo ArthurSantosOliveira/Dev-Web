@@ -12,13 +12,13 @@ $senha = 'minha_senha';
 // $senhaDois = 'senhaDois';
 $senha_hash = password_hash($senha, PASSWORD_DEFAULT, ['' => $sal_salvo, 'key' => $chave_salva]);
 
-echo("senha_hash: ".$senha_hash."\n");
-$senha_inserida_pelo_usuario = 'minha_senha';
-if (password_verify($senha_inserida_pelo_usuario, $senha_hash)) {
-    echo "Senha correta!";
-} else {
-    echo "Senha incorreta.";
-}
+// echo("senha_hash: ".$senha_hash."\n");
+// $senha_inserida_pelo_usuario = 'minha_senha';
+// if (password_verify($senha_inserida_pelo_usuario, $senha_hash)) {
+//     echo "Senha correta!";
+// } else {
+//     echo "Senha incorreta.";
+// }
 
 
 ?>
