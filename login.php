@@ -1,6 +1,8 @@
 <?php
-    $pdo = new PDO("mysql:host=localhost;dbname=rato", "root", ""); 
-
+    include ('conexao.php');
+    
+    session_start(); // Inicia a sessão
+    
     if(isset($_POST['login'])){
         $emailLogin = $_POST['email'];
         $senha = $_POST['senha'];
@@ -14,23 +16,23 @@
             $linha = $stmt->fetch(PDO::FETCH_ASSOC);
             $_SESSION["Email"] = $linha['email'];
             $_SESSION["Senha"] = $linha['senha'];
-            header("Location:cliente.php");
+            header("Location: cliente.php");
         }else{
-            echo'<script type = "text/javascript">';
-            echo'alert("Email ou senha inválidos!!!);';
-            echo'window.location.href="login.php"';
-            echo'</script>';
+            echo '<script type="text/javascript">';
+            echo 'alert("Email ou senha inválidos!!!");';
+            echo 'window.location.href = "./html/login.html";';
+            echo '</script>';
+        }
+    } else {
+        // Verifica se existe os dados da sessão de login
+        if(!isset($_SESSION["Email"]) || !isset($_SESSION["Senha"])){
+            // Usuário não logado! Redireciona para a página de login
+            header("Location: ./html/login.html");
+            exit;
+        } else {
+            // Usuário logado! Redireciona para a página de cliente
+            header("Location: cliente.php");
+            exit;
         }
     }
-    
-    // Inicia sessões
-session_start();
-
-// Verifica se existe os dados da sessão de login
-if(!isset($_SESSION["email"]) || !isset($_SESSION["senha"]))
-{
-// Usuário não logado! Redireciona para a página de login
-header("Location: login.phpl");
-exit;
-}
 ?>
