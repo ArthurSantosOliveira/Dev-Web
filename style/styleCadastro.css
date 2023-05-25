@@ -26,7 +26,7 @@ h1{
 }
 .formulario-campo {
     margin-bottom: 20px;
-    
+    border: none;
 }
 
 .campo-etiqueta {
