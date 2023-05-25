@@ -86,7 +86,6 @@ body{
 .login{
     display: grid;
     padding: 1em;
-    font-family: 'Intro Demo', sans-serif;
 }
 .formulario-login{
     float: right;
@@ -106,7 +105,7 @@ body{
 
 .formulario-login label{
     
-    font-size: 24px;
+    font-size: 30px;
 }
 
 .enviar-cadastro{
@@ -125,7 +124,7 @@ body{
     height: 3em;
     border-radius: 30em;
     font-size: 15px;
-    font-family: 'Intro Demo', sans-serif;
+    font-family: inherit;
     border: none;
     position: relative;
     overflow: hidden;
@@ -168,7 +167,7 @@ body{
     height: 3em;
     border-radius: 30em;
     font-size: 15px;
-    font-family: 'Intro Demo', sans-serif;
+    font-family: inherit;
     border: none;
     position: relative;
     overflow: hidden;
