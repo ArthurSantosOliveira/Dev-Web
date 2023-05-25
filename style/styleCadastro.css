@@ -4,7 +4,7 @@
 
 
 body{
-    background-image: url("/imagens/fundo-preto-com-textura-de-papel-amora.jpg");
+    background-image: url("../imagens/fundo-preto-com-textura-de-papel-amora.jpg");
     color: #fff;
     background-size:cover;  
     background-repeat: no-repeat;
