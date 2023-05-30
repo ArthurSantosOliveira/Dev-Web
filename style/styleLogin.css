@@ -9,8 +9,6 @@ CORES: #1e90ff, #00ff7f
 
 html, body {
   height: 100%;
-  /* background-image: linear-gradient(to bottom, #000000,#ffffff ); */
-  /* background-image: linear-gradient(to bottom,#717171, #ffffff); */
 }
 
 body {
@@ -28,7 +26,6 @@ body {
 }
 
 .sobre-grupo-sete {
-  /* border: 2px solid white; */
   width: 30rem;
   height: 20rem;
   margin: 10em;
@@ -79,7 +76,6 @@ body {
 }
 
 .formulario-login {
-  float: right;
   text-align: center;
   padding: 120px;
 }
@@ -187,7 +183,7 @@ body {
   width: 9em;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .geral {
     grid-template-columns: 1fr;
   }
@@ -197,22 +193,29 @@ body {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
+  .formulario-login {
+    padding: 2em;
+    text-align: center;
+  }
+
   .sobre-grupo-sete {
     width: 100%;
+    margin: 2em 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .geral {
+    grid-template-columns: 1fr;
+  }
+
+  .sobre-grupo-sete {
+    margin-left: -200px;
+    margin-right: 500px
   }
 
   .formulario-login {
-    padding: 2em;
+    margin-left: -400px;
   }
-}
-
-.sobre-grupo-sete h2,
-.sobre-grupo-sete p {
-  font-family: 'No more lies', sans-serif;
-}
-
-/* CORES: #1e90ff, #00ff7f */
-.body-color {
-  background-image: linear-gradient(to bottom, #1e90ff, #00ff7f);
 }

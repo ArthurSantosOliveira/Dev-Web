@@ -15,10 +15,10 @@ body {
 
 /* Slideshow container */
 .slideshow-container {
-  max-inline-size: 800px;
+  max-width: 800px;
   position: relative;
   margin: auto;
-  padding-block-start: 2%;
+  padding: 2% 0;
 }
 
 /* esconde a imagem usando default */
@@ -31,9 +31,7 @@ body {
 .next {
   cursor: pointer;
   position: absolute;
-  inset-block-start: 50%;
-  inline-size: auto;
-  margin-block-start: -22px;
+  top: 50%;
   padding: 16px;
   color: white;
   font-weight: bold;
@@ -113,8 +111,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  block-size: 400px;
-  inline-size: 100%;
+  max-width: 800px;
   margin-top: 50px;
   padding-left: 80px;
   padding-right: 40px;
@@ -156,8 +153,8 @@ body {
   display: grid;
   margin: 2%;
   padding: 5px;
-  block-size: 270px;
-  max-inline-size: 500px;
+  width: 500px;
+  height: 270px;
   box-shadow: 10px 30px 10px rgba(0, 0, 0, 0.3);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
@@ -180,26 +177,33 @@ body {
   font-family: 'Eboracum', sans-serif;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .container {
     flex-wrap: wrap;
   }
 
   .card {
     flex-direction: column;
-    block-size: auto;
+    padding: 0 20px;
+    align-items: center;
   }
 
   .move,
   .card2,
   .cards-descricao {
-    max-inline-size: 100%;
+    width: 100%;
+    max-width: 100%;
   }
 }
 
-@media (max-width: 390px) {
-  .cards-descricao {
+@media (max-width: 767px) {
+  .card {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
     padding: 0;
-    block-size: 200px;
   }
 }
