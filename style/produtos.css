@@ -8,6 +8,7 @@ html,
 body {
   margin: 0;
   font-family: sans-serif;
+  
 }
 
 h8 {
@@ -91,7 +92,7 @@ h7 {
 
 ul {
   list-style: none;
-  display: flex;
+  display: inline-block;
   justify-content: center;
   align-items: center;
   padding-top: 0;
@@ -202,4 +203,11 @@ button {
   .content {
     width: 100%;
   }
+}
+.estrela{
+  list-style: none;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0;
 }
