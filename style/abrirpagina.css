@@ -24,35 +24,57 @@
 .buy {
     display: inline-block;
     padding: 10px 20px;
-    margin-top: 30px;
+    margin-top: 22px;
 }  
 
 .fotoitem {
    display: flex;
    width: 30%; 
    height: auto; 
-   margin-left: 1000px;
+   margin-left: 900px;
    margin-top: 20px;
    
 }
 
+.fotocapacete{
+    display: flex;
+    width: 29%; 
+    height: auto; 
+    margin-left: 900px;
+    margin-top: 20px;
+    
+}
+
+
+.content p{
+  color:rgba(240, 248, 255, 0.966);
+}
+h2, h3{
+  color: #b83a27;
+}
+
+
 h8 {
     display: flex;
     justify-content: center;
-    margin-left: 920px;
+    margin-left: 720px;
     margin-top: -730px;
     font-size: 50px;
   }
 
   .title{
-    margin-left: 920px;
+    margin-left: 720px;
     margin-top: 10px;
   }
 
+  h4{
+    font-size: 26px;
+    color: #b83a27;
+  }
   h7{
     display: flex;
     justify-content: center;
-    margin-left: 920px;
+    margin-left: 720px;
     margin-top: 10px;
     font-size: 20px;
   }
@@ -60,7 +82,7 @@ h8 {
   h6{
     display: flex;
     justify-content: center;
-    margin-left: 920px;
+    margin-left: 720px;
     margin-top: 10px;
     font-size: 40px;
   }
@@ -96,6 +118,15 @@ h8 {
   }
 
   .estrela{
-    margin-left: 930px;
+    margin-left: 730px;
     margin-top: 10px;
   }
+  
+  .garrafa{
+      display: flex;
+      justify-content: center;
+      margin-left: 720px;
+      margin-top: -780px;
+      font-size: 50px;
+    }
+  
