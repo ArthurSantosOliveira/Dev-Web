@@ -1,0 +1,101 @@
+@import url(styleCabecalho.css);
+@import url(footer.css);
+@import url(produtos.css);
+
+.content {
+    display: block;
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 150px;
+    height: 800px;
+    background-color: #1C1C1C;
+    box-shadow: 0 2px 5px rgb(11, 9, 9), 0 10px 10px #1C1C1C;
+    
+}
+
+.rodape-info-contatos {
+    margin-bottom: 0px;
+    margin-top: 1000px;
+    padding: 5px;
+    height: 350px;
+}
+  
+
+.buy {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 30px;
+}  
+
+.fotoitem {
+   display: flex;
+   width: 30%; 
+   height: auto; 
+   margin-left: 1000px;
+   margin-top: 20px;
+   
+}
+
+h8 {
+    display: flex;
+    justify-content: center;
+    margin-left: 920px;
+    margin-top: -730px;
+    font-size: 50px;
+  }
+
+  .title{
+    margin-left: 920px;
+    margin-top: 10px;
+  }
+
+  h7{
+    display: flex;
+    justify-content: center;
+    margin-left: 920px;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  h6{
+    display: flex;
+    justify-content: center;
+    margin-left: 920px;
+    margin-top: 10px;
+    font-size: 40px;
+  }
+  .container {
+    margin: 20px;
+    background-color: #1C1C1C;
+    padding: 10px;
+  }
+  
+  .section-title {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-right: 900px;
+    font-family: 'Lilita One', sans-serif;
+    
+  }
+  
+  .section-description,
+  .sub-section-description {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-right: 900px;
+  }
+  
+  .sub-section-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: 'Lilita One', sans-serif;
+    margin-right: 900px;
+  }
+
+  .estrela{
+    margin-left: 930px;
+    margin-top: 10px;
+  }

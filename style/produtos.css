@@ -211,3 +211,78 @@ button {
   align-items: center;
   padding-top: 0;
 }
+
+.botoes{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.next {
+  background: #94fb1f;
+  font-family: inherit;
+  padding: 10px 20px;
+  width: 250px;
+  margin-left: 1270px;
+  padding: 0.6em 1.3em;
+  font-weight: 900;
+  font-size: 18px;
+  border: 3px solid black;
+  border-radius: 0.4em;
+  box-shadow: 0.1em 0.1em;
+}
+
+.next:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
+}
+
+.next:active {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+  
+}
+
+.link {
+  padding: 10px 20px;
+  text-align: center;
+  width: 50px;
+  background-color: #000;
+  color: white;
+  font-size: 16px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.link:hover {
+  background-color: #01a013;
+}
+
+.link.active {
+  background-color: #fff;
+  color: #b83a27;
+}
+.next {
+  flex-grow: 2;
+  margin-right: 10px;
+}
+
+h3.destaques {
+  display: flex;
+  color: #b84427;
+  margin-right: 250px;
+  margin-top: 20px;
+  font-size: 31px;
+  font-family: 'Ptarmigan', sans-serif;
+                                                
+                                                
+                                                
+}
+
+.fa-arrow-down{
+  display: flex;
+  margin-left: 20px;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  
+}
