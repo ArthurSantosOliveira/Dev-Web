@@ -4,8 +4,8 @@
     session_start(); // Inicia a sessão
     
     if(isset($_POST['login'])){
-        $emailLogin = $_POST['email'];
-        $senha = $_POST['senha'];
+        $emailLogin = mysqli_real_escape_string($_POST['email']);
+        $senha = mysqli_real_escape_string($_POST['senha']);
     
         $stmt = $pdo->prepare("SELECT * FROM clientes WHERE email = :email AND senha = :senha");
         $stmt->bindParam(':email', $emailLogin);
@@ -23,16 +23,6 @@
             echo 'window.location.href = "./html/login.html";';
             echo '</script>';
         }
-    } else {
-        // Verifica se existe os dados da sessão de login
-        if(!isset($_SESSION["Email"]) || !isset($_SESSION["Senha"])){
-            // Usuário não logado! Redireciona para a página de login
-            header("Location: ./html/login.html");
-            exit;
-        } else {
-            // Usuário logado! Redireciona para a página de cliente
-            header("Location: cliente.php");
-            exit;
-        }
-    }
+    } 
+
 ?>
