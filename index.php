@@ -1,3 +1,19 @@
+
+<?php 
+  session_start();
+  setcookie("ck_authorized", "true", 0, "/");
+  
+  if(!isset($_SESSION["email"])):
+      header("location: login.php");
+  else:
+      $_SESSION["email"] =  $login ;
+  endif;
+  // Se o usuário estiver logado, exibe a página
+  include('conexao.php');
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -32,7 +48,17 @@
         <li><a class="active" href="./html/index.html">Home</a></li>
         <li><a href="./html/produtos.html">Bicicletas</a></li>
         <li><a href="./html/acessorios.html">Acessórios</a></li>
-        <li><a href="./html/login.html">Login</a></li>
+
+        <?php 
+            if($_SESSION['Logado'] == 'On'){
+              echo '<li><a href="./html/login.html">Perfil</a></li>';
+              echo '<li><a href="logout.php">Sair</a></li>';
+            }else{
+              echo '<li><a href="./html/login.html">Login</a></li>';
+            }
+        ?>
+
+        
       </ul>
       <img class="imagem" src="./imagens/logo-fundo-transparente_resized.png" alt="">
     </nav>

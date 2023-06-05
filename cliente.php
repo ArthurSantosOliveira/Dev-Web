@@ -1,11 +1,25 @@
 <?php
 
 session_start();
+setcookie("ck_authorized", "true", 0, "/");
+
+if(!isset($_SESSION["email"])):
+    header("location: login.php");
+    // echo '<script type="textjavascript">
+ 
+    //     alert("Primeiro faça o login!");
+
+    // </script>';
+    echo  "<script>alert('Primeiro realize o login!');</script>";
+else:
+    $_SESSION["email"] =  $login ;
+endif;
 
 // Se o usuário estiver logado, exibe a página
 include('conexao.php');
 
-echo 'Bem vindo ',$_SESSION['Email'];
+echo 'Bem vindo usuário '.$_SESSION['Nome'];
+
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
