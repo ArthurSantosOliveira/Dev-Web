@@ -1,32 +1,11 @@
 <?php
 
-// Inicia sessões
 session_start();
-setcookie("ck_authorized", "true", 0, "/");
 
-if(!isset($_SESSION["email"])):
-    header("location: login.php");
-    // echo '<script type="textjavascript">
- 
-    //     alert("Primeiro faça o login!");
-
-    // </script>';
-    echo  "<script>alert('Primeiro realize o login!');</script>";
-else:
-    $_SESSION["email"] =  $login ;
-endif;
-
-// Verifica se existe os dados da sessão de login
-if(!isset($_SESSION["Email"]) || !isset($_SESSION["Senha"]))
-{
-// Usuário não logado! Redireciona para a página de login
-header("Location: ./html/login.html");
-exit;
-}
+// Se o usuário estiver logado, exibe a página
 include('conexao.php');
 
-echo 'Bem vindo usuário '.$_SESSION['Nome'];
-
+echo 'Bem vindo ',$_SESSION['Email'];
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -40,3 +19,5 @@ echo 'Bem vindo usuário '.$_SESSION['Nome'];
     <h1>Clique aqui para sair da sua conta </h1><a href="logout.php">Logout</a>
 </body>
 </html>
+
+
