@@ -4,8 +4,8 @@
     session_start(); // Inicia a sessão
     
     if(isset($_POST['login'])){
-        $emailLogin = mysqli_real_escape_string($_POST['email']);
-        $senha = mysqli_real_escape_string($_POST['senha']);
+        $emailLogin =($_POST['email']);
+        $senha = ($_POST['senha']);
     
         $stmt = $pdo->prepare("SELECT * FROM clientes WHERE email = :email AND senha = :senha");
         $stmt->bindParam(':email', $emailLogin);

@@ -26,13 +26,3 @@ echo 'Bem vindo ',$_SESSION['Email'];
     <h1>Clique aqui para sair da sua conta </h1><a href="logout.php">Logout</a>
 </body>
 </html>
-
-
-
-
-<script>
-function exibirAlerta() {
-  alert("Primeiro faça o login!");
-}
-exibirAlerta();
-</script>
