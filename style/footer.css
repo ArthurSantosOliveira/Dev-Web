@@ -44,7 +44,7 @@
 }
 
 .info-item p:hover {
-  color: #de4029;
+  color: #D6A03E;
   transform: scale(1.1);
 }
 
@@ -81,7 +81,7 @@
 
 .icon:hover {
   transform: scale(1.2);
-  color: #de4029;
+  color: #D6A03E;
 }
 
 .social-item img {
@@ -97,7 +97,7 @@
 }
 
 .copy p:hover {
-  color: #de4029;
+  color: #D6A03E;
   transform: scale(1.1);
 }
 

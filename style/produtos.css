@@ -65,7 +65,7 @@ a {
   font-size: 18px;
   font-weight: 20;
   text-align: center;
-  color: #b83a27;
+  color: #D6A03E;
   font-family: 'Lilita One', sans-serif;
 }
 
@@ -178,7 +178,7 @@ button {
 .logo-item img {
   max-width: 100%;
   margin-block-start: 40px;
-  margin-left: 0px;
+  margin-left: 50px;
   width: 250px;
   height: 250px;
 }
@@ -222,7 +222,7 @@ button {
   font-family: inherit;
   padding: 10px 20px;
   width: 250px;
-  margin-left: auto;
+  margin-left: 1270px;
   padding: 0.6em 1.3em;
   font-weight: 900;
   font-size: 18px;
@@ -277,7 +277,7 @@ button {
 
 h3.destaques {
   display: flex;
-  color: #b84427;
+  color: #D6A03E;
   margin-right: 250px;
   margin-top: 20px;
   font-size: 31px;

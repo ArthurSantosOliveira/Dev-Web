@@ -50,7 +50,7 @@ nav ul li a{
 
 nav ul li a.active,nav ul li a:hover{
     background-color: #272626;
-    color: #de4029;
+    color: #D6A03E;
     
 }
 
@@ -132,7 +132,7 @@ nav ul li a.active,nav ul li a:hover{
    
 
     nav ul li a:hover,nav ul li a.active{
-        color: #de4029;
+        color: #D6A03E;
         transform: scale(1.1);
     }
 

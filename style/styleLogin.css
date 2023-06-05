@@ -131,7 +131,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: linear-gradient(to right, #de4029 0%, #e06310 100%);
+  background-image: linear-gradient(to right, #f5e12b 50%, #00eeff 100%);
   transition: 0.5s ease;
   display: block;
   z-index: -1;

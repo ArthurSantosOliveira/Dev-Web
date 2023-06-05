@@ -121,7 +121,7 @@ body {
 .move {
   width: 500px;
   height: 270px;
-  background-image: linear-gradient(163deg, #de4029 0%, #0400ff 100%);
+  background-image: linear-gradient(163deg, #D6A03E 10%, #0400ff 100%);
   border-radius: 20px;
   transition: all 0.3s;
 }
