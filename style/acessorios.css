@@ -5,6 +5,23 @@
 @import url("footer.css");
 
 @import url("produtos.css");
+
+
+.next {
+    background: #94fb1f;
+    font-family: inherit;
+    padding: 10px 20px;
+    width: 250px;
+    margin-left: 1070px;
+    margin-top: 60px;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+  }
+
 /*
 LINKEI O CSS DO PRODUTOS (OU BICICLETAS) PARA OS ACESSORIOS POIS SÃO AS MESMAS PROPRIEDADES E EU TINHA Q FICAR MEXENDO NOS DOIS QUANDO QUERIA ALTERAR ALGO - MAURICIO
 footer {

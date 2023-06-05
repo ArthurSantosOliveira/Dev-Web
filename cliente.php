@@ -1,5 +1,6 @@
 <?php
 
+// Inicia sessões
 session_start();
 setcookie("ck_authorized", "true", 0, "/");
 
@@ -15,7 +16,13 @@ else:
     $_SESSION["email"] =  $login ;
 endif;
 
-// Se o usuário estiver logado, exibe a página
+// Verifica se existe os dados da sessão de login
+if(!isset($_SESSION["Email"]) || !isset($_SESSION["Senha"]))
+{
+// Usuário não logado! Redireciona para a página de login
+header("Location: ./html/login.html");
+exit;
+}
 include('conexao.php');
 
 echo 'Bem vindo usuário '.$_SESSION['Nome'];
@@ -33,5 +40,3 @@ echo 'Bem vindo usuário '.$_SESSION['Nome'];
     <h1>Clique aqui para sair da sua conta </h1><a href="logout.php">Logout</a>
 </body>
 </html>
-
-
