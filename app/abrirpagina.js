@@ -41,5 +41,5 @@ function abrirPagina11(){
   window.location.href = "../html/bolsabike.html";
 }
 function abrirPagina12(){
-  window.location.href = "../html/bolsabike.html";
+  window.location.href = "../html/bombadear.html";
 }
