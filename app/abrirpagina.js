@@ -37,7 +37,9 @@ function abrirPagina9(){
 function abrirPagina10(){
   window.location.href = "../html/cadeados.html";
 }
-
+function abrirPagina11(){
+  window.location.href = "../html/bolsabike.html";
+}
 function abrirPagina12(){
   window.location.href = "../html/bolsabike.html";
 }
