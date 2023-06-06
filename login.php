@@ -17,11 +17,9 @@
             $_SESSION["Email"] = $linha['email'];
             $_SESSION["Senha"] = $linha['senha'];
             header("Location: cliente.php");
-        }else{
-            echo '<script type="text/javascript">';
-            echo 'alert("Email ou senha inválidos!!!");';
-            echo 'window.location.href = "./html/login.html";';
-            echo '</script>';
+            $_SESSION["logado"] = 'on';
+        }elseif(isset($GET['erro'])){
+            $erro ='É necessário logar para acessar a página';
         }
     } 
 

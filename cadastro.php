@@ -16,4 +16,5 @@ $stmt->bindValue(4, $senha); // Armazena o hash da senha no banco de dados
 $stmt->execute();
 
 header("Location: cliente.php");
+$_SESSION['Logado'] = 'On';
 ?>
