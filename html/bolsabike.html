@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../style/styleLogin.css">
     <link rel="stylesheet" href="../style/acessorios.css">
     <link rel="stylesheet" href="/style/abrirpagina.css">
+    
     <link href="https://fonts.cdnfonts.com/css/intro" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/intro" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,30 +35,33 @@
       <i class="fa fa-bars"></i>
       </label>
       <ul>
-          <li><a  href="../index.html">Home</a></li>
-          <li><a href="../html/produtos.html">Bicicletas</a></li>
-          <li><a class="active" href="..\html\acessorios.html">Acessórios</a></li>
-          <li><a  href="../html/login.html">Login</a></li>
-      </ul>
+        <li><a  href="/index.html">Home</a></li>
+        <li><a href="/html/produtos.html">Bicicletas</a></li>
+        <li><a class="active" href="/html/acessorios.html">Acessórios</a></li>
+        <li><a  href="/html/login.html">Login</a></li> 
+        <li><a class="icon" href="/html/cart.html">
+          <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        </li>  
+    </ul>
       <a href = "../index.html"> <img class="imagem" src="../imagens/logo-fundo-transparente_resized.png" alt=""></a>
       
 </nav>
 
-    <div class="content" href="/html/camisa.html">
-        <div class="container">
-            <h2 class="section-title"> Design e Materiais</h2>
-            <p class="section-description">Nesta garrafa squeeze personalizada, o design e os materiais  <br>de alta qualidade se unem para proporcionar um estilo em algo <br>simples. Feita de latex resistente, ela possui um acabamento <br>elegante para suas atividades físicas.</p>
+    <div class="content" href="/html/bolsabike.html">
+        <div class="lanter">
+            <h2 class="section-title">Segurança Robusta</h2>
+            <p class="section-description">O Cadeado de bicicleta oferece uma segurança robusta para proteger sua <br>bicicleta contra roubo. Com um corpo resistente e feito de materiais duráveis, <br>ele é projetado para resistir a tentativas de arrombamento e cortes. Mecanismo de travamento de alta qualidade proporciona uma proteção confiável.</p>
           
-            <h2 class="section-title">Capacidade e Praticidade</h2>
-            <p class="section-description">Com uma capacidade generosa de 700 ml, esta garrafa squeeze <br>é perfeita para acompanhar você durante todo o dia. Seja no escritório, <br>na academia, em pedais ou em viagens, ela oferece a praticidade necessária para se manter hidratado(a) a todo momento. </p>
+            <h2 class="section-title">Fácil Utilização e Conveniência</h2>
+            <p class="section-description">Projetado para ser fácil de usar e conveniente. Com um mecanismo de <br>travamento simples e rápido, você pode prender sua bicicleta em poucos segundos, sem complicações. Além disso, seu design compacto e leve permite<br> que você o leve facilmente consigo enquanto pedala.</p>
           
-            <h2 class="section-title"> Sustentabilidade</h2>
-            <p class="section-description">Ao escolher nossa garrafa squeeze, você está optando por um produto <br>que promove a sustentabilidade e a responsabilidade ambiental. Ao comprar essa garrafa durável, você  contribui para a diminuição da poluição causada por resíduos plásticos.</p>
-            <h3 class="sub-section-title">Identidade da Marca</h3>
-            <p class="sub-section-description">Comprando a nossa garrafa, é uma maneira elegante e eficaz de mostrar seu estilo enquanto apoia nossa marca. Com a designs da loja impressa com alta qualidade na garrafa, você pode exibir orgulhosamente sua preferência e seu bom gosto.</p>
+            <h2 class="section-title">  Flexibilidade e Compatibilidade</h2>
+            <p class="section-description">Cadeado é versátil e compatível com diferentes tipos de bicicletas. Seja uma bicicleta de estrada, mountain bike ou dobrável, ele pode ser utilizado em diferentes pontos de ancoragem, como aros de roda, quadros e postes de estacionamento específicos para bicicletas.</p>
+            <h3 class="sub-section-title">Resistência às Condições Externas</h3>
+            <p class="sub-section-description">Resistente às intempéries, o que significa que você pode confiar nele em qualquer condição climática. Seja sob chuva, sol intenso ou neve, seu revestimento resistente protege o cadeado contra corrosão e danos causados pelos elementos externos. </p>
           </div>
-        <h8 class="garrafa">Garrafa RatoBikeStore</h8>
-      <img class="fotoitem" src="../imagens/garrafa agua ciclismo_Prancheta 1.jpg" alt="foto alguma">
+        <h8>Bolsa para Bike</h8>
+      <img class="fotocapacete" src="/imagens/cadeados.jpg" alt="foto alguma">
       <ul class="estrela">
         <li><i class="fa fa-star checked"></i></li>
           <li><i class="fa fa-star checked"></i></li>
@@ -65,10 +69,11 @@
           <li><i class="fa fa-star checked"></i></li>
           <li><i class="fa fa-star "></i></li>
         </ul>
-        <h4 class="title">Garrafa Squeeze 700ml Original </h4>
-      <h7> De: R$39,99</h7>
-      <h6>R$19,99</h6>
-      <button class="buy">Comprar</button>
+        <h4 class="title">Bolsa de acessórrio c/ espaços separados</h4>
+        <h7> De: R$59,90</h7>
+        <h6>R$ 39,90</h6>
+        <h3>Quantidade:</h3> <input type="number" value="1" min="1" max="10" id="qtda11">
+        <button class="buy" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Bolsa para Bike', document.getElementById('qtda11').value, '39.90', 11)"> Comprar </button>
       </div>
   
 

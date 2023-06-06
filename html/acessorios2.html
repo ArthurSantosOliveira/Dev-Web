@@ -42,12 +42,12 @@
 </nav>
 
 <div class="gallery">
-  <div class="content">
-    <img class="fotoitem" src="..\imagens\camisa ciclismo_Prancheta 1.jpg" alt="foto alguma">
-    <h8>Vazio</h8>
-    <p>Vazio</p>
-    <h7> De: R$119,99</h7>
-    <h6>R$79,99</h6>
+  <div class="content" onclick=abrirPagina7()>
+    <img class="fotoitem" src="../imagens/Suporte para Squeeze.jpg" alt="foto alguma">
+    <h8>Suporte para Squeeze</h8>
+    <p>Suporte para garrafa/squeeze com pinos para sustentação</p>
+    <h7> De: R$59,90</h7>
+    <h6>R$32,90</h6>
     <ul class="estrela">
       <li><i class="fa fa-star checked"></i></li>
       <li><i class="fa fa-star checked"></i></li>
@@ -55,15 +55,16 @@
       <li><i class="fa fa-star checked"></i></li>
       <li><i class="fa fa-star "></i></li>
     </ul>
-    <button class="buy">Comprar</button>
+    <h3>Quantidade:</h3> <input type="number" value="1" min="1" max="10" id="qtda7">
+    <button class="buy" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Suporte para Squeeze', document.getElementById('qtda7').value, '32.90', 7)"> Comprar </button>
   </div>
 
-  <div class="content">
-    <img class="fotoitem" src="..\imagens\capacete rato bike shop_Prancheta 1.jpg" alt="foto alguma">
-    <h8>Vazio</h8>
-    <p>Vazio</p>
-    <h7> De: R$219,99</h7>
-    <h6>R$149,99 </h6>
+  <div class="content" onclick=abrirPagina8()>
+    <img class="fotoitem" src="../imagens/lanterna frontal e traseira.jpg" alt="foto alguma">
+    <h8>Lanterna Frontal e Traseira</h8>
+    <p>Lanterna frontal e traseria com suporte incluso</p>
+    <h7> De: R$119,90</h7>
+    <h6>R$92,90</h6>
     <ul class="estrela">
       <li><i class="fa fa-star checked"></i></li>
       <li><i class="fa fa-star checked"></i></li>
@@ -71,15 +72,16 @@
       <li><i class="fa fa-star checked"></i></li>
       <li><i class="fa fa-star "></i></li>
     </ul>
-    <button class="buy">Comprar</button>
+    <h3>Quantidade:</h3> <input type="number" value="1" min="1" max="10" id="qtda8">
+    <button class="buy" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Lanterna Frontal e Traseira', document.getElementById('qtda8').value, '92.90', 8)"> Comprar </button>
   </div>
 
-  <div class="content">
-    <img class="fotoitem" src="..\imagens\garrafa agua ciclismo_Prancheta 1.jpg" alt="foto alguma">
-    <h8>Vazio</h8>
-    <p>Vazio</p>
-    <h7> De: R$39,99</h7>
-    <h6>R$19,99</h6>
+  <div class="content" onclick=abrirPagina9() >
+    <img class="fotoitem" src="../imagens/velocimetro.jpg" alt="foto alguma">
+    <h8>Velocímetro</h8>
+    <p>Velocímetro com 15 funções,luz noturna e mapas.</p>
+    <h7> De: R$159,90</h7>
+    <h6>R$139,99</h6>
     <ul class="estrela">
       <li><i class="fa fa-star checked"></i></li>
       <li><i class="fa fa-star checked"></i></li>
@@ -87,15 +89,16 @@
       <li><i class="fa fa-star checked"></i></li>
       <li><i class="fa fa-star "></i></li>
     </ul>
-    <button class="buy">Comprar</button>
+    <h3>Quantidade:</h3> <input type="number" value="1" min="1" max="10" id="qtda9">
+    <button class="buy" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Velocímetro', document.getElementById('qtda9').value, '139.99', 9)"> Comprar </button>
   </div>
 
-  <div class="content">
-    <img class="fotoitem" src="..\imagens\suportetraseirabicicletra.JPG" alt="foto alguma">
-    <h8>Vazio</h8>
-    <p>Vazio</p>
-    <h7> De: R$199,99</h7>
-    <h6>$119,99</h6>
+  <div class="content" onclick=abrirPagina10()>
+    <img class="fotoitem" src="../imagens/cadeados.jpg" alt="foto alguma">
+    <h8>Cadeados</h8>
+    <p>Cadeados anti furto de aço</p>
+    <h7> De: R$89,90</h7>
+    <h6>R$79,90</h6>
     <ul class="estrela">
       <li><i class="fa fa-star checked"></i></li>
       <li><i class="fa fa-star checked"></i></li>
@@ -103,14 +106,16 @@
       <li><i class="fa fa-star "></i></li>
       <li><i class="fa fa-star "></i></li>
     </ul>
-    <button class="buy">Comprar</button>
+    <h3>Quantidade:</h3> <input type="number" value="1" min="1" max="10" id="qtda10">
+    <button class="buy" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Cadeados', document.getElementById('qtda10').value, '89.90', 10)"> Comprar </button>
   </div>
-  <div class="content">
-    <img class="fotoitem" src="../imagens/oculos.jpg" alt="foto alguma">
-    <h8>Vazio</h8>
-    <p>Vazio</p>
-    <h7> De: R$214,99</h7>
-    <h6>R$ 144,99</h6>
+  
+  <div class="content" onclick=abrirPagina11()>
+    <img class="fotoitem" src="../imagens/bolsaparabike.jpg" alt="foto alguma">
+    <h8>Bolsa para Bike</h8>
+    <p>Bolsa de acessórrio c/ espaços separados</p>
+    <h7> De: R$59,90</h7>
+    <h6>R$ 39,90</h6>
     <ul class="estrela">
     <li><i class="fa fa-star checked"></i></li>
       <li><i class="fa fa-star checked"></i></li>
@@ -118,15 +123,16 @@
       <li><i class="fa fa-star "></i></li>
       <li><i class="fa fa-star "></i></li>
     </ul>
-    <button class="buy">Comprar</button>
+    <h3>Quantidade:</h3> <input type="number" value="1" min="1" max="10" id="qtda11">
+    <button class="buy" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Bolsa para Bike', document.getElementById('qtda11').value, '39.90', 11)"> Comprar </button>
     </div>
 
     <div class="content">
-      <img class="fotoitem" src="../imagens/Camisa_RatoBikeStore.jpeg" alt="foto alguma">
-      <h8>Vazio</h8>
-      <p>Vazio </p>
-      <h7> De: R$99,99</h7>
-      <h6>R$ 59,99</h6>
+      <img class="fotoitem" src="../imagens/bomba de ar.jpg" alt="foto alguma">
+      <h8>Bomba de ar GPS</h8>
+      <p>Bomba de Ar com suporte de sustentação para pé</p>
+      <h7> De: R$129,90</h7>
+      <h6>R$ 89,90</h6>
       <ul class="estrela">
       <li><i class="fa fa-star checked"></i></li>
         <li><i class="fa fa-star checked"></i></li>
@@ -134,7 +140,8 @@
         <li><i class="fa fa-star checked"></i></li>
         <li><i class="fa fa-star checked"></i></li>
       </ul>
-      <button class="buy">Comprar</button>
+      <h3>Quantidade:</h3> <input type="number" value="1" min="1" max="10" id="qtda12">
+      <button class="buy" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Bomba de ar GPS', document.getElementById('qtda12').value, '89.90', 12)"> Comprar </button>
       </div>
   
       <div class="grid-container">
@@ -181,4 +188,5 @@
       </div>
     </footer>
 </body>
+  <script src="../app/abrirpagina.js"></script>
 </html>

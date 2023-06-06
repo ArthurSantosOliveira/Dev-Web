@@ -53,7 +53,8 @@
         <li><i class="fa fa-star "></i></li>
         <li><i class="fa fa-star "></i></li>
       </ul>
-      <button class="buy">Comprar</button>
+      <h4>Quantidade:</h4> <input type="number" value="1" min="1" max="10" id="qtd7">
+      <button class="buy" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Mountain Bike South Bike Voltz', document.getElementById('qtd7').value, '1500.00', 7)"> Comprar </button>
     </div>
 
     <div class="content">
@@ -69,7 +70,8 @@
         <li><i class="fa fa-star checked"></i></li>
         <li><i class="fa fa-star checked"></i></li>
       </ul>
-      <button class="buy">Comprar</button>
+      <h4>Quantidade:</h4> <input type="number" value="1" min="1" max="10" id="qtd8">
+      <button class="buy" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Mountain Bike Caloi Carbon', document.getElementById('qtd8').value, '12000.00', 8)"> Comprar </button>
     </div>
 
     <div class="content">
@@ -85,15 +87,17 @@
         <li><i class="fa fa-star checked"></i></li>
         <li><i class="fa fa-star "></i></li>
       </ul>
-      <button class="buy">Comprar</button>
+      <h4>Quantidade:</h4> <input type="number" value="1" min="1" max="10" id="qtd9">
+      <button class="buy" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Mountain Bike Caloi Extreme', document.getElementById('qtd9').value, '2500.00', 9)"> Comprar </button>
     </div>
+   
 
     <div class="content">
       <img class="fotoitem" src="/imagens/bike-caloi-moab.jpeg" alt="foto alguma">
       <h8>Mountain Bike Caloi Moab</h8>
       <p>Aro 29 - Freio a Disco Hidráulico <br> Câmbio Traseiro Shimano Alivio - Inox</p>
       <h7> De: R$4500,00</h7>
-      <h6>R$4100.00 </h6>
+      <h6>R$4100,00 </h6>
       <ul class="estrela">
         <li><i class="fa fa-star checked"></i></li>
         <li><i class="fa fa-star checked"></i></li>
@@ -101,7 +105,8 @@
         <li><i class="fa fa-star checked"></i></li>
         <li><i class="fa fa-star checked"></i></li>
       </ul>
-      <button class="buy">Comprar</button>
+      <h4>Quantidade:</h4> <input type="number" value="1" min="1" max="10" id="qtd10">
+      <button class="buy" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Mountain Bike Caloi Moab', document.getElementById('qtd10').value, '4100.00', 10)"> Comprar </button>
     </div>
 
 
@@ -111,7 +116,7 @@
       <p>Aro 29 - Freio a Disco Mecânico <br> Câmbio Shimano - 21 Marchas - Alumínio
     </p>
       <h7> De: R$2800,00</h7>
-      <h6>R$2400.,00 </h6>
+      <h6>R$2400,00 </h6>
       <ul class="estrela">
         <li><i class="fa fa-star checked"></i></li>
         <li><i class="fa fa-star checked"></i></li>
@@ -119,7 +124,8 @@
         <li><i class="fa fa-star checked"></i></li>
         <li><i class="fa fa-star "></i></li>
       </ul>
-      <button class="buy">Comprar</button>
+      <h4>Quantidade:</h4> <input type="number" value="1" min="1" max="10" id="qtd11">
+      <button class="buy" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Mountain Bike Groove Hype 10', document.getElementById('qtd11').value, '2400.00', 11)"> Comprar </button>
     </div>
 
     <div class="content">
@@ -135,8 +141,10 @@
         <li><i class="fa fa-star checked"></i></li>
         <li><i class="fa fa-star "></i></li>
       </ul>
-      <button class="buy">Comprar</button>
+      <h4>Quantidade:</h4> <input type="number" value="1" min="1" max="10" id="qtd12">
+      <button class="buy" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Mountain Bike Groove Hype 10 Red', document.getElementById('qtd12').value, '2400.00', 12)"> Comprar </button>
     </div>
+
 </div>
 <div class="grid-container">
   <button class="next" onclick="window.location.href = 'produtos3.html'">Próxima página</button>
@@ -181,4 +189,5 @@
     </div>
   </footer>
 </body>
+  <script src="/app/quantidade.js"></script>
 </html>
