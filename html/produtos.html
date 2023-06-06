@@ -35,6 +35,9 @@
             <li><a class="active" href="./html/produtos.html">Bicicletas</a></li>
             <li><a href="..\html\acessorios.html">Acessórios</a></li>
             <li><a  href="../html/login.html">Login</a></li> 
+            <li><a class="icon" href="../html/cart.html">
+              <i class="fa fa-shopping-cart" aria-hidden="true"></i></li>
+ 
             
         </ul>
         <a href = "../index.html"> <img class="imagem" src="../imagens/logo-fundo-transparente_resized.png" alt=""></a>
@@ -58,7 +61,8 @@
         <li><i class="fa fa-star "></i></li>
         <li><i class="fa fa-star "></i></li>
       </ul>
-      <button class="buy">Comprar</button>
+      qtd: <input type="number" value="1" min="1" max="10" id="qtd1">
+      <button class="buy" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Bike Aro 29 KRW Alumínio', document.getElementById('qtd1').value, '1750.00', 1)"> Comprar </button>
     </div>
 
     <div class="content">
@@ -74,7 +78,8 @@
         <li><i class="fa fa-star checked"></i></li>
         <li><i class="fa fa-star "></i></li>
       </ul>
-      <button class="buy">Comprar</button>
+      qtd: <input type="number" value="1" min="1" max="10" id="qtd2">
+      <button class="buy" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Bike Sense One', document.getElementById('qtd2').value, '2200.00', 2)"> Comprar </button>
     </div>
 
     <div class="content">
@@ -90,7 +95,8 @@
         <li><i class="fa fa-star "></i></li>
         <li><i class="fa fa-star "></i></li>
       </ul>
-      <button class="buy">Comprar</button>
+      qtd: <input type="number" value="1" min="1" max="10" id="qtd3">
+      <button class="buy" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Bike GTS M1 Ride New Red', document.getElementById('qtd3').value, '1100.00', 3)"> Comprar </button>
     </div>
 
     <div class="content">
@@ -141,6 +147,16 @@
       </ul>
       <button class="buy">Comprar</button>
     </div>
+    <script>
+      function AddCarrinho(produto, qtd, valor, posicao)
+      {
+        localStorage.setItem("produto" + posicao, produto);
+        localStorage.setItem("qtd" + posicao, qtd);
+        valor = valor * qtd;
+        localStorage.setItem("valor" + posicao, valor);
+        alert("Produto adicionado ao carrinho!");
+      }
+    </script>
 </div>
 <div class="grid-container">
   <button class="next" onclick="window.location.href = 'produtos2.html'">Próxima página</button>
@@ -148,6 +164,7 @@
   <button class="link" onclick="window.location.href = 'produtos2.html'">2</button>
   <button class="link" onclick="window.location.href = 'produtos3.html'">3</button>
 </div>
+
   <footer>
     <div class="rodape-info-contatos">
       <div class="info-item">

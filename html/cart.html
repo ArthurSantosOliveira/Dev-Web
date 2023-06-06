@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/cart.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fontawesome.com/icons/github?f=brands&s=solid&sz=xl">
+    <link href="https://fonts.cdnfonts.com/css/intro" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/ultramoire" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/albertus-mt-std" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/sofachrome" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/eboracum" rel="stylesheet">
+                
+  
+
+    <link rel="shortcut icon" href="/imagens/bikeico.ico" type="image/x-icon">
+    <title>RatoBikeStore</title>
+</head>
+<body>
+    <nav>
+      <input type="checkbox" name="" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fa fa-bars"></i>
+      </label>
+
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="../html/produtos.html">Bicicletas</a></li>
+        <li><a href="./html/acessorios.html">Acessórios</a></li>
+        <li><a href="./html/login.html">Login</a></li>
+      </ul>
+      <img class="imagem" src="../imagens/logo-fundo-transparente_resized.png" alt="">
+    </nav>
+
+    <div class="cart">
+      <h1>Carrinho de compras</h1>
+    </div>
+
+    <script>
+      function fazerpedido()
+      {
+        alert("Pedido realizado com sucesso!");
+      }
+    </script>
+
+    <section class="container2">
+      <table width="100%">
+        <thead>
+          <tr>
+            <td><div class="itens" id="itens"> </div></td>
+            <td><div class="total">Total: <span id="total"></span> </div></td>
+            <td>
+            <button class="limpar" type="button" onclick=" localStorage.clear(); location.reload();"> Limpar carrinho </button>
+            <button class="limpar" type="button" onclick="fazerpedido()" value="Exibir Alert">Fazer Pedido</button>
+          </tr>
+        </thead>
+      </table>
+      <script>
+        var total = 0; // variável que retorna o total dos produtos que estão na LocalStorage.
+        var i = 0;     // variável que irá percorrer as posições
+        var valor = 0; // variável que irá receber o preço do produto convertido em Float.
+        
+        for(i=1; i<=99; i++) // verifica até 99 produtos registrados na localStorage
+        {
+          var prod = localStorage.getItem("produto" + i + ""); // verifica se há recheio nesta posição. 
+          if(prod != null) 
+          {	
+            // exibe os dados da lista dentro da div itens
+            document.getElementById("itens").innerHTML += localStorage.getItem("qtd" + i) + " x ";
+            document.getElementById("itens").innerHTML += localStorage.getItem("produto" + i);
+            document.getElementById("itens").innerHTML += " ";
+            document.getElementById("itens").innerHTML += "R$: " + localStorage.getItem("valor" + i) + "<hr>";
+            
+            // calcula o total dos recheios
+            valor = parseFloat(localStorage.getItem("valor" + i)); // valor convertido com o parseFloat()
+            total = (total + valor); // arredonda para 2 casas decimais com o .toFixed(2)
+          }
+        } 
+        // exibe o total dos recheios
+        document.getElementById("total").innerHTML = total.toFixed(2); 
+       </script>
+    </section>
+    
+   
+
+  <footer>
+    <div class="rodape-info-contatos">
+      <div class="info-item">
+        <h3 class="heading">Endereço</h3>
+        <p>Rua Ratatouille, Nº 0004
+          Salvador, Bahia </p>
+      </div>
+      <div class="info-item">
+        <h3 class="heading">Contato</h3>
+        <p> +55 (71)4402-8922</p>
+      </div>
+      <div class="info-item">
+        <h3 class="heading">E-mail</h3>
+        <p>ratobikestore@gmail.com</p>
+      </div>
+      <div class="copy">
+        <p>Copyright ©2023 <br>All rights reserved 
+          | Equipe 07</p>
+      </div>
+     <div class="logo-item">
+      </div> 
+      
+      <div class="social-item">
+        <a class="icon" href="https://web.whatsapp.com/">
+          <i class="fa fa-whatsapp" aria-hidden="true"></i>
+        </a>
+        <a class="icon" href="https://www.instagram.com/">
+          <i class="fa fa-instagram" aria-hidden="true"></i>        
+        </a>
+        <a class="icon" href="">
+          <i class=" fa fa-linkedin aria-hidden"></i>
+        </a>
+      </div>
+    </div>
+    </div>
+  </footer>
+</body>
+</html>
