@@ -128,7 +128,7 @@ h8 {
       display: flex;
       justify-content: center;
       margin-left: 720px;
-      margin-top: -750px;
+      margin-top: -780px;
       font-size: 50px;
     }
   
@@ -142,5 +142,14 @@ h8 {
     }
 
     .suporte{
-      margin: 18px;
+      margin: 30px;
     }
+
+    .bike{
+      display: flex;
+      justify-content: center;
+      margin-left: 720px;
+      margin-top: -800px;
+      font-size: 50px;
+    }
+   

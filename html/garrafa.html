@@ -34,11 +34,14 @@
       <i class="fa fa-bars"></i>
       </label>
       <ul>
-          <li><a  href="../index.html">Home</a></li>
-          <li><a href="../html/produtos.html">Bicicletas</a></li>
-          <li><a class="active" href="..\html\acessorios.html">Acessórios</a></li>
-          <li><a  href="../html/login.html">Login</a></li>
-      </ul>
+        <li><a  href="/index.html">Home</a></li>
+        <li><a  href="/html/produtos.html">Bicicletas</a></li>
+        <li><a class= "active" href="/html/acessorios.html">Acessórios</a></li>
+        <li><a  href="/html/login.html">Login</a></li> 
+        <li><a class="icon" href="/html/cart.html">
+          <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        </li>  
+    </ul>
       <a href = "../index.html"> <img class="imagem" src="../imagens/logo-fundo-transparente_resized.png" alt=""></a>
       
 </nav>
@@ -68,7 +71,8 @@
         <h4 class="title">Garrafa Squeeze 700ml Original </h4>
       <h7> De: R$39,99</h7>
       <h6>R$19,99</h6>
-      <button class="buy">Comprar</button>
+      <h4>Quantidade:</h4> <input type="number" value="1" min="1" max="10" id="qtda3">
+      <button class="buy" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Garrafa Squeeze RatoBikeStore', document.getElementById('qtda3').value, '19.99', 3)"> Comprar </button>
       </div>
   
 
@@ -109,4 +113,5 @@
       </div>
     </footer>
 </body>
+<script src="/app/carrinho.js"></script>
 </html>

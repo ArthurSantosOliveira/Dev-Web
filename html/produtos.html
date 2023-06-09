@@ -47,9 +47,9 @@
   </nav>
   
   <div class="gallery">
-    <div class="content">
-      <img class="fotoitem" src="..\imagens\bicicleta-aro-29-krw-s41-aluminio-cambio-shimano-freio-a-disco-hidraulico-24v-adulto-img.jpg" alt="foto alguma">
-      <h8>Bike Aro 29 KRW Alumínio</h8>
+    <div class="content" onclick=abrirPaginaBike()>
+      <img class="fotoitem" src="../imagens/bikeKRW.jpg" alt="foto alguma">
+      <h8>Bike KRW Alumínio</h8>
       <p>Câmbio Shimano - Freio a Disco hidráulico <br> 24V - Adulto</p>
       <h7> De: R$2000,00</h7>
       <h6>R$1750,00</h6>
@@ -64,8 +64,8 @@
       <button class="buy" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Bike Aro 29 KRW Alumínio', document.getElementById('qtd1').value, '1750.00', 1)"> Comprar </button>
     </div>
 
-    <div class="content">
-      <img class="fotoitem" src="..\imagens\bicicleta-sense-one-aro-29-freio-hidraulico-cambio-shimano-21-v-adulto-img.jpg" alt="foto alguma">
+    <div class="content" onclick=abrirPaginaBike1()>
+      <img class="fotoitem" src="..\imagens\bikesenseone.jpg" alt="foto alguma">
       <h8>Bike Sense One</h8>
       <p>Aro 29 - Freio Hidráulico - Câmbio Shimano <br> 21 V - Adulto</p>
       <h7> De: R$2500,00</h7>
@@ -78,12 +78,12 @@
         <li><i class="fa fa-star "></i></li>
       </ul>
       <h4>Quantidade:</h4> <input type="number" value="1" min="1" max="10" id="qtd2">
-      <button class="buy" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Bike Sense One', document.getElementById('qtd2').value, '2200.00', 2)"> Comprar </button>
+      <button class="buy" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Bike Aro 29 KRW Alumínio', document.getElementById('qtd2').value, '1750.00', 2)"> Comprar </button>
     </div>
 
-    <div class="content">
-      <img class="fotoitem" src="/imagens/bike-gts-red.jpeg" alt="foto alguma">
-      <h8>Bike GTS M1 Ride New Red</h8>
+    <div class="content" onclick=abrirPaginaBike2()>
+      <img class="fotoitem" src="../imagens/bike-gts-red.jpeg" alt="foto alguma">
+      <h8>Bike GTS Red</h8>
       <p>Aro 29 - Freio a Disco <br> Câmbio GTSM1 MX8 - 24 Marchas</p>
       <h7> De: R$1300,00</h7>
       <h6>R$1100,00</h6>
@@ -98,8 +98,8 @@
       <button class="buy" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Bike GTS M1 Ride New Red', document.getElementById('qtd3').value, '1100.00', 3)"> Comprar </button>
     </div>
 
-    <div class="content">
-      <img class="fotoitem" src="/imagens/bike-absolute-white.jpeg" alt="foto alguma">
+    <div class="content" onclick=abrirPaginaBike3()>
+      <img class="fotoitem" src="/imagens/bikeherawhite.png" alt="foto alguma">
       <h8>Bike Absolute Hera - White</h8>
       <p> Hidráulica Shimano - Aro 29  <br> Freios Absolute Wild</p>
       <h7> De: R$ 2000,00</h7>
@@ -116,8 +116,8 @@
     </div>
 
 
-    <div class="content">
-      <img class="fotoitem" src="/imagens/bike-absolute-aqua.jpg" alt="foto alguma">
+    <div class="content" onclick=abrirPaginaBike4()>
+      <img class="fotoitem" src="../imagens/bikeheraaqua.png" alt="foto alguma">
       <h8>Bike Absolute Hera - Aqua</h8>
       <p> Hidráulica Shimano - Aro 29  <br> Freios Absolute Wild</p>
       <h7> De: R$2000,00</h7>
@@ -130,10 +130,10 @@
         <li><i class="fa fa-star "></i></li>
       </ul>
       <h4>Quantidade:</h4> <input type="number" value="1" min="1" max="10" id="qtd5">
-      <button class="buy" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Camisa ciclismo RatoBikeStore', document.getElementById('qtd5').value, '79.90', 5)"> Comprar </button>
+      <button class="buy" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Bike Absolute Hera - Aqua', document.getElementById('qtd5').value, '1800.00', 4)"> Comprar </button>
     </div>
 
-    <div class="content">
+    <div class="content" onclick=abrirPaginaBike5()>
       <img class="fotoitem" src="/imagens/bike-gts-black.jpeg" alt="foto alguma">
       <h8>Bike GTS M1 Ride New</h8>
       <p>Aro 29 - Freio a Disco  <br> Câmbio GTSM1 MX8 - 24 Marchas</p>
@@ -195,4 +195,5 @@
   </footer>
 </body>
   <script src="/app/abrirpagina.js"></script>
+ 
 </html>

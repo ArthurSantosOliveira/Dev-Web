@@ -1,17 +1,4 @@
-function AddCarrinho(produto, qtd, valor, posicao)
-      {
-        localStorage.setItem("produto" + posicao, produto);
-        localStorage.setItem("qtd" + posicao, qtd);
-        valor = valor * qtd;
-        localStorage.setItem("valor" + posicao, valor);
-        alert("Produto adicionado ao carrinho!");
-      }
 
-      
-function fazerpedido()
-      {
-        alert("Pedido realizado com sucesso!");
-      }
 function abrirPagina() {
   window.location.href = "../html/camisa.html";
 }
@@ -83,6 +70,31 @@ function abrirPagina17(){
 function abrirPagina18(){
   window.location.href = "../html/descanso.html";
 }
+
+function abrirPaginaBike() {
+  window.location.href = "../html/bikeKRW.html";
+}
+
+
+function abrirPaginaBike1() {
+  window.location.href = "../html/bikesenseone.html";
+}
+
+function abrirPaginaBike2() {
+  window.location.href = "../html/bikeGTS.html";
+}
+
+function abrirPaginaBike3() {
+  window.location.href = "../html/bikeHeraWhite.html";
+}
+
+function abrirPaginaBike4() {
+  window.location.href = "../html/bikeHeraAqua.html";
+}
+
+
+
+
 
 
 

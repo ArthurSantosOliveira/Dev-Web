@@ -35,11 +35,14 @@
       <i class="fa fa-bars"></i>
       </label>
       <ul>
-          <li><a  href="../index.html">Home</a></li>
-          <li><a href="../html/produtos.html">Bicicletas</a></li>
-          <li><a class="active" href="..\html\acessorios.html">Acessórios</a></li>
-          <li><a  href="../html/login.html">Login</a></li>
-      </ul>
+        <li><a  href="/index.html">Home</a></li>
+        <li><a  href="/html/produtos.html">Bicicletas</a></li>
+        <li><a class= "active" href="/html/acessorios.html">Acessórios</a></li>
+        <li><a  href="/html/login.html">Login</a></li> 
+        <li><a class="icon" href="/html/cart.html">
+          <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        </li>  
+    </ul>
       <a href = "../index.html"> <img class="imagem" src="../imagens/logo-fundo-transparente_resized.png" alt=""></a>
       
 </nav>
@@ -69,8 +72,8 @@
         <h4 class="title">Óculos Ciclismo Bike Original</h4>
       <h7>De: R$214,99</h7>
       <h6>R$ 144,99</h6>
-      <h3>Quantidade:</h3> <input type="number" value="1" min="1" max="10" id="qtd4">
-      <button class="buy" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Camisa ciclismo RatoBikeStore', document.getElementById('qtd4').value, '79.90', 4)"> Comprar </button>
+      <h4>Quantidade:</h4> <input type="number" value="1" min="1" max="10" id="qtda5">
+    <button class="buy" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Óculos RatoBikeStore', document.getElementById('qtda5').value, '144.99', 5)"> Comprar </button>
       </div>
   
 
@@ -111,4 +114,5 @@
       </div>
     </footer>
 </body>
+<script src="/app/carrinho.js"></script>
 </html>
