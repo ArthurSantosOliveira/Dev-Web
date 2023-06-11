@@ -3,7 +3,7 @@
 Site de uma Loja de Bike composto de uma Home Page, Telas para os produtos (Bikes e Acessórios) e Login Page
 </p>
 <p align="center">
-  <img alt="Capa do Projeto" src="./imagens/CapaProjeto.jpeg" width="100%">
+  <img alt="Capa do Projeto" src="../imagens/CapaProjeto.jpeg" width="100%">
  </p>
   
 ## 🚀 Tecnologias
