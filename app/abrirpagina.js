@@ -128,5 +128,10 @@ function abrirPaginaBike13() {
   window.location.href = "../html/bikeRAV2R.html";
 }
 
+function abrirPaginaBike14() {
+  window.location.href = "../html/bikeStrada.html";
+}
 
-
+function abrirPaginaBike15() {
+  window.location.href = "../html/bikeRAV2R.html";
+}
