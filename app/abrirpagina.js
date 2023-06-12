@@ -100,12 +100,33 @@ function abrirPaginaBike6() {
   window.location.href = "../html/bikeGTSblack.html";
 }
 
+function abrirPaginaBike7() {
+  window.location.href = "../html/bikeVoltz.html";
+}
 
+function abrirPaginaBike8() {
+  window.location.href = "../html/bikeCaloiCarbon.html";
+}
 
+function abrirPaginaBike9() {
+  window.location.href = "../html/bikeExtreme.html";
+}
 
+function abrirPaginaBike10() {
+  window.location.href = "../html/bikeMoab.html";
+}
 
+function abrirPaginaBike11() {
+  window.location.href = "../html/bikeGroove.html";
+}
 
+function abrirPaginaBike12() {
+  window.location.href = "../html/bikeGrooveRed.html";
+}
 
+function abrirPaginaBike13() {
+  window.location.href = "../html/bikeRAV2R.html";
+}
 
 
 
