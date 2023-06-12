@@ -133,5 +133,17 @@ function abrirPaginaBike14() {
 }
 
 function abrirPaginaBike15() {
-  window.location.href = "../html/bikeRAV2R.html";
+  window.location.href = "../html/bikeGravel.html";
+}
+
+function abrirPaginaBike16() {
+  window.location.href = "../html/bikeGTS2.html";
+}
+
+function abrirPaginaBike17() {
+  window.location.href = "../html/bikeRAV.html";
+}
+
+function abrirPaginaBike18() {
+  window.location.href = "../html/bikeRAVAQUA.html";
 }
