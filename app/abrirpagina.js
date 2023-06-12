@@ -92,6 +92,12 @@ function abrirPaginaBike4() {
   window.location.href = "../html/bikeHeraAqua.html";
 }
 
+function abrirPaginaBike5() {
+  window.location.href = "../html/bikeGTSblack.html";
+}
+
+
+
 
 
 
