@@ -96,6 +96,9 @@ function abrirPaginaBike5() {
   window.location.href = "../html/bikeGTSblack.html";
 }
 
+function abrirPaginaBike6() {
+  window.location.href = "../html/bikeGTSblack.html";
+}
 
 
 
