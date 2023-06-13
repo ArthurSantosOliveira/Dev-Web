@@ -186,6 +186,7 @@ body {
     flex-direction: column;
     padding: 0 20px;
     align-items: center;
+
   }
 
   .move,
@@ -203,6 +204,12 @@ body {
 }
 
 @media (max-width: 576px) {
+  .card {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
   .card {
     padding: 0;
   }

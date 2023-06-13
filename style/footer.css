@@ -110,9 +110,10 @@
   }
   
   .logo-item img {
-    margin: 0 auto;
+    margin-left: 70px;
     width: 200px;
     height: auto;
+    margin-top: -20px;
   }
   
   .heading {
@@ -137,6 +138,52 @@
   
   .copy p {
     text-align: center;
-    margin: 10px auto;
+    margin-left: 70px;
+    margin-top: 50px;
+    
   }
-}
+
+  @media (min-width:770px) {
+    .rodape-info-contatos {
+      display: flex;
+      flex-wrap: wrap;
+      height: auto;
+      padding: 20px;
+    }
+    
+    .logo-item img {
+      margin-left: 70px;
+      width: 200px;
+      height: auto;
+      margin-top: -20px;
+    }
+    
+    .heading {
+      text-align: center;
+      margin: 20px auto;
+    }
+    
+    .info-item,
+    .social-item {
+      flex: 1;
+      text-align: center;
+      margin: 20px;
+    }
+    
+    .info-item p {
+      margin: 10px auto;
+    }
+    
+    .social-item {
+      margin-top: 0;
+    }
+    
+    .copy p {
+      text-align: center;
+      margin-left: 70px;
+      margin-top: 50px;
+      
+    }
+  } 
+} 
+  

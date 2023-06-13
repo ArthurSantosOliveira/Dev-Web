@@ -11,7 +11,7 @@ for(i=1; i<=99; i++) // verifica até 99 produtos registrados na localStorage
     document.getElementById("itens").innerHTML += localStorage.getItem("qtd" + i) + " x ";
     document.getElementById("itens").innerHTML += localStorage.getItem("produto" + i);
     document.getElementById("itens").innerHTML += " ";
-    document.getElementById("itens").innerHTML += "R$: " + localStorage.getItem("valor" + i) + "<hr>";
+    document.getElementById("itens").innerHTML += "R$: " + localStorage.getItem("valor" + i) + "<br>";
     
     // calcula o total dos recheios
     valor = parseFloat(localStorage.getItem("valor" + i)); // valor convertido com o parseFloat()
