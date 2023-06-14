@@ -10,8 +10,8 @@ Site de uma Loja de Bike composto de uma Home Page, Telas para os produtos (Bike
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML & CSS
-- JavaScript & PHP
+src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">  <img align="center" alt="Mau-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"> <img align="center" alt="Mau-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"> <img align="center" alt="Mau-Python" height="40" width="50"
+src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg"> <img align="center" alt="Mau-Python" height="40" width="50"
 - Design com Figma & Canva
 
 ## 💻 Projeto
