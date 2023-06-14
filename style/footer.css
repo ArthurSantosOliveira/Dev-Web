@@ -1,15 +1,18 @@
+
 .rodape-info-contatos {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 10px;
-  background-color: #000000;
   color: #fff;
+  background-color: #000000;
+
   font-family: "Open Sans", sans-serif;
   font-size: 25px;
   margin-bottom: 0px;
   margin-top: 100px;
   padding: 5px;
   height: 350px;
+
 }
 
 .logo-item img {
@@ -99,6 +102,18 @@
 .copy p:hover {
   color: #D6A03E;
   transform: scale(1.1);
+}
+@media(max-width:800px){
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .rodape-info-contatos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  
+  }
 }
 
 @media (max-width: 768px) {

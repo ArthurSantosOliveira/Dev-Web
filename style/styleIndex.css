@@ -1,5 +1,5 @@
 /* 
-CORES: #1e90ff, #00ff7f 
+CORES: #1esl0ff, #00ff7f 
 */
 @import url("styleCabecalho.css");
 @import url("footer.css");
@@ -91,6 +91,7 @@ body {
 .mySlides img {
   box-shadow: 20px 20px 10px;
   border-radius: 10px;
+  width:45vw;
 }
 
 @keyframes fade {
@@ -196,7 +197,19 @@ body {
     max-width: 100%;
   }
 }
+@media(max-width:800px){
 
+  .slideshow-container{
+    display: none;
+  }
+  .card{
+    width: 60vw;
+  }
+  .card2{
+    padding: 0;
+  }
+
+}
 @media (max-width: 767px) {
   .card {
     padding: 0 10px;
