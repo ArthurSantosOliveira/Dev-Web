@@ -12,8 +12,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
  <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">  <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"> <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"> <img align="center" alt="PhP" height="40" width="50"
 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg"> 
-
-- Design com Figma & Canva
+<img align="center" alt="Figma" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg">
+<img align="center" alt="Canva" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/canva/canva-original.svg">
 
 ## 💻 Projeto
 O trabalho, proposto pelo Docente Vitor Emmanuel Andrade, foi criado com o objetivo de aperfeiçoar e despertar aprendizados em Desenvolvemente Web a partir do HTML, CSS, JavaScript e PHP.
